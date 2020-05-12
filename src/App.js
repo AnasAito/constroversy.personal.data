@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "./components/Card/index";
+import Landing from "./views/landing";
 function App() {
   return (
     <div>
-      <Card />
+      <Landing />
     </div>
   );
 }
