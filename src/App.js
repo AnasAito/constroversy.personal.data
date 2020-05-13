@@ -1,5 +1,5 @@
 import React from "react";
-import Landing from "./views/landing";
+import Landing from "./views/Landing/index";
 function App() {
   return (
     <div>

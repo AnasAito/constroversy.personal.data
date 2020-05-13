@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function section5() {
+export default function Tour1() {
   return (
     <>
       <section className="pb-20 relative block bg-blue-900 ">
@@ -35,11 +35,6 @@ export default function section5() {
                 personelle en introduisant les etapes aunssi que les differents
                 action que la donnes pesronelle recoit au cours de sa vie
               </p>
-            </div>
-          </div>
-          <div>
-            <div className=" bg-red-200 rounded-full border border-red-200 w-40 text-center text-left mt-4 mb-4 text-gray-800">
-              <p className="text-xl  ">Collection</p>
             </div>
           </div>
         </div>

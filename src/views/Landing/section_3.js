@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function section2() {
+export default function Section3() {
   return (
     <section className="relative py-20">
       <div
