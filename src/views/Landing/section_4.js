@@ -28,9 +28,15 @@ export default function Section4() {
             what is the controversy then ?
           </h2>
           <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-            ce tour interactif nous montre le cycle de vie d'une donnees
-            personelle en introduisant les etapes aunssi que les differents
-            action que la donnes pesronelle recoit au cours de sa vie
+            t’s not only the EU that takes this IT procedure seriously. Data
+            retention limits also show up in the US’s HIPAA rules for personal
+            health data and in some financial data security regulations. Data
+            retention limits—measured in years—define the amount of time an
+            electronic document must be kept.{" "}
+            <p className="text-black">
+              (should be replaced with a abstract about the controversy and
+              question then been extracted)
+            </p>
           </p>
         </div>
       </div>

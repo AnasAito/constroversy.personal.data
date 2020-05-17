@@ -28,9 +28,16 @@ export default function Section_1() {
                 Protection des données personnelles
               </h1>
               <p className="mt-4 text-lg text-gray-300">
-                This is a simple example of a Landing Page you can build using
-                Tailwind Starter Kit. It features multiple CSS components based
-                on the Tailwindcss design system.
+                Data is a company’s most valuable asset. To maintain data’s
+                value, it’s vital to identify where that data is vulnerable.
+                According to data and ethics expert Dr. Gemma Galdon Clavell,
+                there are five major moments where data is most vulnerable:
+                collection, storage, sharing, analysis, and deletion. These
+                vulnerability points increase the risk of a data breach – and
+                we’ve all heard about the costs of having one.
+                <p className="text-red-200 font-bold">
+                  should be change with "problematique"
+                </p>
               </p>
             </div>
           </div>

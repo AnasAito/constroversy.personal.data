@@ -33,20 +33,23 @@ export default function Section5() {
             mes données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-            Don't let your uses guess by attaching tooltips and popoves to any
-            element. Just make sure you enable them first via JavaScript.
+            The message is clear: lower your data security risk profile. If you
+            don’t need data, delete it. The less data you have, the less
+            damaging a breach will be.
           </p>
           <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
+            If it’s sensitive, make sure it’s only accessible to those who need
+            it. Old and stale files are expensive and risky, which is why we
+            have retention policies and software solutions such as Varonis Data
+            Transport Engine – which helps archive, quarantine, and delete stale
+            (and regulated) data.
+            <p className="text-black font-bold">
+              (should be replaced with abstract about the studied part)
+            </p>
           </p>
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            className="font-bold text-gray-800 mt-8"
-          >
-            Read more ...
-          </a>
+          <button className="font-bold text-gray-800 mt-8">
+            Lire la suite ...
+          </button>
         </div>
 
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -55,7 +58,8 @@ export default function Section5() {
             <div className="text-md font-light m-10 text-white">
               <h4 className="text-xl font-bold text-white">Contre : </h4>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Commission Nationale de Contrôle de Protection des Données à
+                Caractère Personnel (Cndp)
               </p>
               <p className="text-md font-light mt-2 text-white">
                 - The Arctic Ocean freezes
@@ -150,20 +154,23 @@ export default function Section5() {
             mes données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-            Don't let your uses guess by attaching tooltips and popoves to any
-            element. Just make sure you enable them first via JavaScript.
+            The message is clear: lower your data security risk profile. If you
+            don’t need data, delete it. The less data you have, the less
+            damaging a breach will be.
           </p>
           <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
+            If it’s sensitive, make sure it’s only accessible to those who need
+            it. Old and stale files are expensive and risky, which is why we
+            have retention policies and software solutions such as Varonis Data
+            Transport Engine – which helps archive, quarantine, and delete stale
+            (and regulated) data.
+            <p className="text-black font-bold">
+              (should be replaced with abstract about the studied part)
+            </p>
           </p>
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            className="font-bold text-gray-800 mt-8"
-          >
-            Read more ...
-          </a>
+          <button className="font-bold text-gray-800 mt-8">
+            Lire la suite ...
+          </button>
         </div>
       </div>
       {/*next  */}
@@ -177,20 +184,23 @@ export default function Section5() {
             mes données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-            Don't let your uses guess by attaching tooltips and popoves to any
-            element. Just make sure you enable them first via JavaScript.
+            The message is clear: lower your data security risk profile. If you
+            don’t need data, delete it. The less data you have, the less
+            damaging a breach will be.
           </p>
           <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
+            If it’s sensitive, make sure it’s only accessible to those who need
+            it. Old and stale files are expensive and risky, which is why we
+            have retention policies and software solutions such as Varonis Data
+            Transport Engine – which helps archive, quarantine, and delete stale
+            (and regulated) data.
+            <p className="text-black font-bold">
+              (should be replaced with abstract about the studied part)
+            </p>
           </p>
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            className="font-bold text-gray-800 mt-8"
-          >
-            Read more ...
-          </a>
+          <button className="font-bold text-gray-800 mt-8">
+            Lire la suite ...
+          </button>
         </div>
 
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -294,20 +304,23 @@ export default function Section5() {
             mes données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-            Don't let your uses guess by attaching tooltips and popoves to any
-            element. Just make sure you enable them first via JavaScript.
+            The message is clear: lower your data security risk profile. If you
+            don’t need data, delete it. The less data you have, the less
+            damaging a breach will be.
           </p>
           <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
+            If it’s sensitive, make sure it’s only accessible to those who need
+            it. Old and stale files are expensive and risky, which is why we
+            have retention policies and software solutions such as Varonis Data
+            Transport Engine – which helps archive, quarantine, and delete stale
+            (and regulated) data.
+            <p className="text-black font-bold">
+              ( should be replaced with abstract about the studied part)
+            </p>
           </p>
-          <a
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            className="font-bold text-gray-800 mt-8"
-          >
-            Read more ...
-          </a>
+          <button className="font-bold text-gray-800 mt-8">
+            Lire la suite ...
+          </button>
         </div>
       </div>
     </section>
