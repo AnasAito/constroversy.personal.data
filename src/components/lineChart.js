@@ -7,20 +7,34 @@ export default function LineChart() {
       type: "line",
       data: {
         labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July"
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
         ],
         datasets: [
           {
-            label: new Date().getFullYear(),
-            backgroundColor: "#4c51bf",
+            label: " Nombre d'utilisateurs (En million)",
+            backgroundColor: "#a3bffa",
             borderColor: "#4c51bf",
-            data: [65, 78, 66, 44, 56, 67, 75],
+            data: [
+              100,
+              608,
+              845,
+              1056,
+              1228,
+              1393,
+              1591,
+              1860,
+              2129,
+              2320,
+              2498
+            ],
             fill: true
           }
         ]
@@ -30,7 +44,8 @@ export default function LineChart() {
         responsive: true,
         title: {
           display: false,
-          text: "Sales Charts",
+          text:
+            " Nombre d'utilisateurs mensuels actifs de Facebook dans le monde",
           fontColor: "white"
         },
         legend: {
@@ -106,11 +121,8 @@ export default function LineChart() {
           <div className="rounded-t mb-0 px-4 py-3 bg-transparent">
             <div className="flex flex-wrap items-center">
               <div className="relative w-full max-w-full flex-grow flex-1">
-                <h6 className="uppercase text-gray-200 mb-1 text-xs font-semibold">
-                  Overview
-                </h6>
                 <h2 className="text-white text-xl font-semibold">
-                  Sales value
+                  Nombre d'utilisateurs mensuels actifs de Facebook
                 </h2>
               </div>
             </div>

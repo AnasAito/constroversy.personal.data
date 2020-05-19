@@ -22,23 +22,11 @@ export default function Section_1() {
       </div>
       <div className="container relative mx-auto">
         <div className="items-center flex flex-wrap">
-          <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div className="pr-12">
+          <div className="w-full lg:w-5/12 px-4 ml-auto mr-auto text-center">
+            <div className="pr-11">
               <h1 className="text-white font-semibold text-5xl">
-                Protection des données personnelles
+                Peut on protéger l’usage de nos données personnelles ?
               </h1>
-              <p className="mt-4 text-lg text-gray-300">
-                Data is a company’s most valuable asset. To maintain data’s
-                value, it’s vital to identify where that data is vulnerable.
-                According to data and ethics expert Dr. Gemma Galdon Clavell,
-                there are five major moments where data is most vulnerable:
-                collection, storage, sharing, analysis, and deletion. These
-                vulnerability points increase the risk of a data breach – and
-                we’ve all heard about the costs of having one.
-                <p className="text-red-200 font-bold">
-                  should be change with "problematique"
-                </p>
-              </p>
             </div>
           </div>
         </div>
