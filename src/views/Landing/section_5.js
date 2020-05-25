@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Section5() {
   return (
     <section className="relative py-20  bg-gray-200">
@@ -23,7 +23,18 @@ export default function Section5() {
         </svg>
       </div>
 
-      <div className=" bg-gray-200 flex flex-wrap items-center mt-32">
+      <div className=" bg-gray-200 flex flex-wrap items-center ">
+        <div className="container mx-auto px-4 ">
+          <div className="flex flex-wrap text-center justify-center">
+            <div className="w-full lg:w-6/12 px-4">
+              <p className="text-xl leading-relaxed mt-4 mb-4 text-black">
+                Une tel analyse nous permetra de tirer dune question largemant
+                vague des question bien precis dont on peut directemet
+                distinguer la controverse .
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
           <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
             <i className="fas fa-user-friends text-xl"></i>
@@ -47,9 +58,10 @@ export default function Section5() {
               (should be replaced with abstract about the studied part)
             </p>
           </p>
-          <button className="font-bold text-gray-800 mt-8">
+
+          <Link to="/axe" className="font-bold text-gray-800 mt-8">
             Lire la suite ...
-          </button>
+          </Link>
         </div>
 
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">

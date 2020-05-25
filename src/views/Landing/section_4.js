@@ -1,5 +1,13 @@
 import React from "react";
-
+import cycle from "./assets/cycle.png";
+const Card = ({ title, content }) => (
+  <div className=" bg-gray-200 relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+    <div className="px-4 py-5 flex-auto">
+      <h6 className="text-xl font-semibold">{title}</h6>
+      <p className="mt-2 mb-4 text-gray-600">{content}</p>
+    </div>
+  </div>
+);
 export default function Section4() {
   return (
     <section className="relative py-20">
@@ -23,50 +31,59 @@ export default function Section4() {
         </svg>
       </div>
       <div className="flex flex-wrap text-center justify-center">
-        <div className="w-full lg:w-6/12 px-4">
-          <h2 className="text-4xl font-semibold text-black">
+        <div className="w-full lg:w-9/12 px-4">
+          <h2 className="text-4xl font-bold text-black">
             what is the controversy then ?
           </h2>
-          <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-            t’s not only the EU that takes this IT procedure seriously. Data
-            retention limits also show up in the US’s HIPAA rules for personal
-            health data and in some financial data security regulations. Data
-            retention limits—measured in years—define the amount of time an
-            electronic document must be kept.{" "}
-            <p className="text-black">
-              (should be replaced with a abstract about the controversy and
-              question then been extracted)
-            </p>
+          <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
+            avant qu'on puissen repondre anotre question sur la possibilite de
+            protection il faut comprendre en premier pourquio une tel question
+            existe : est qu'il surgit des pratique des acteur agissant sur ces
+            donnees personelles ? quelle sont ces acteurs ? sont ils les seul
+            acteur dont les actions doit se mettre en question ? une reponse a
+            ces auestion necessite une observation du cycle de vie des donnees
+            personelle etant le milieu ou nos acteur qu'on definira peuvent
+            affecter .
+          </p>
+          <img src={cycle} />
+
+          <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
+            en observant le shemas cidessous on peut distinguer les acteur
+            agissant directement sur les donnes personelles
           </p>
         </div>
       </div>
-      <div className="flex flex-col  p-8">
-        <div className="flex flex-row items-center m-4 justify-start">
-          <div className="flex h-16 w-16 bg-red-300 rounded-full mr-4"></div>
-          <p>
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
-          </p>
+      <div className="flex flex-wrap">
+        <div className=" pt-6 w-full md:w-4/12 px-4 text-center">
+          <Card
+            title="propriataire de donnees "
+            content="nombre d'enregistrements de données compromis au cours des six premiers mois de 2019 seulement"
+          />
         </div>
-        <div className="flex flex-row items-center m-4 justify-end">
-          <div className="flex h-16 w-16 bg-red-300 rounded-full mr-4"></div>
-          <p>
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
-          </p>
+
+        <div className="w-full md:w-4/12 px-4 text-center">
+          <Card
+            title="
+            service provider"
+            content="nombre de fichiers contenant des données sensibles dans l'entreprise courante"
+          />
         </div>
-        <div className="flex flex-row items-center m-4 justify-start">
-          <div className="flex h-16 w-16 bg-red-300 rounded-full mr-4"></div>
-          <p>
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
-          </p>
+
+        <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+          <Card
+            title="Tiers"
+            content="
+               Part des utilisateurs qui ont déclaré que leur informations personnelles avaient été compromises au moins une fois au cours des cinq dernières années"
+          />
         </div>
-        <div className="flex flex-row items-center m-4 justify-end">
-          <div className="flex h-16 w-16 bg-red-300 rounded-full mr-4"></div>
-          <p>
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
+      </div>
+
+      <div className="flex flex-wrap text-center justify-center">
+        <div className="w-full lg:w-9/12 px-4">
+          <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
+            Suivant notre intuition d'ingenieur on a vu que la deuxiemme etape
+            apres avoir definis nos acteur et de distinguer quelques point
+            critique de notre systeme . qu'on les classe en deux type
           </p>
         </div>
       </div>

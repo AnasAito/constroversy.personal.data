@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -14,27 +14,16 @@ export default function Navbar(props) {
       >
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
+            <Link
+              to="/"
               className={
                 (props.transparent ? "text-white" : "text-gray-800") +
-                " cursor-pointer text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
+                " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
               }
-              //href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+              href="#"
             >
-              Page principale
-            </a>
-            <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <i
-                className={
-                  (props.transparent ? "text-white" : "text-gray-800") +
-                  " fas fa-bars"
-                }
-              ></i>
-            </button>
+              Accueil
+            </Link>
           </div>
           <div
             className={
@@ -44,8 +33,34 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
-              <li className="flex items-center"></li>
+              <li className="flex items-center">
+                <a
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#"
+                >
+                  Nos interviews
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#"
+                >
+                  Nos sources
+                </a>
+              </li>
             </ul>
+
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
                 <a
@@ -65,6 +80,29 @@ export default function Navbar(props) {
                       " fab fa-facebook text-lg leading-lg "
                     }
                   />
+                  <span className="lg:hidden inline-block ml-2">Share</span>
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#pablo"
+                >
+                  <i
+                    className={
+                      (props.transparent
+                        ? "lg:text-gray-300 text-gray-500"
+                        : "text-gray-500") +
+                      " fab fa-twitter text-lg leading-lg "
+                    }
+                  />
+                  <span className="lg:hidden inline-block ml-2">Tweet</span>
                 </a>
               </li>
 
@@ -101,7 +139,8 @@ export default function Navbar(props) {
                   type="button"
                   style={{ transition: "all .15s ease" }}
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> À propos
+                  <i className="fas fa-arrow-alt-circle-down"></i> Qui-sommes
+                  nous ?
                 </button>
               </li>
             </ul>

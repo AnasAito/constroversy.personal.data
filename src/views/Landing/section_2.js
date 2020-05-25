@@ -20,12 +20,12 @@ const GraphWithText = () => (
       </h3>
 
       <p className="text-justify text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-        Les données personnelles correspondent à toute information relative à
-        une personne physique identifiée ou qui peut être identifiée,
-        directement ou indirectement, par référence à un numéro d’identification
-        ou à un ou plusieurs éléments qui lui sont propres. Aujourd’hui, la
-        problématique de la protection des données personnelles est plus que
-        jamais d’actualité.
+        <span className="font-semibold">Les données personnelles </span>{" "}
+        correspondent à toute information relative à une personne physique
+        identifiée ou qui peut être identifiée, directement ou indirectement,
+        par référence à un numéro d’identification ou à un ou plusieurs éléments
+        qui lui sont propres. Aujourd’hui, la problématique de la protection des
+        données personnelles est plus que jamais d’actualité.
       </p>
       <p className="text-justify text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
         {" "}
