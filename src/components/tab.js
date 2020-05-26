@@ -1,5 +1,5 @@
 import React from "react";
-
+import actors_tech from "../views/Landing/assets/actors_tech.png";
 export default function Tab({ color }) {
   const [openTab, setOpenTab] = React.useState(0);
   return (
@@ -54,7 +54,7 @@ export default function Tab({ color }) {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 0 ? "block" : "hidden"} id="link2">
-                  <p>Protection legislative des données personnelles</p>
+                  <img src={actors_tech} />
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link3">
                   <p>Protection legislative des données personnelles</p>
