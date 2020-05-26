@@ -33,23 +33,23 @@ export default function Section4() {
       <div className="flex flex-wrap text-center justify-center">
         <div className="w-full lg:w-9/12 px-4">
           <h2 className="text-4xl font-bold text-black">
-            what is the controversy then ?
+            Quelle est la controverse alors ?
           </h2>
           <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
-            avant qu'on puissen repondre anotre question sur la possibilite de
-            protection il faut comprendre en premier pourquio une tel question
-            existe : est qu'il surgit des pratique des acteur agissant sur ces
-            donnees personelles ? quelle sont ces acteurs ? sont ils les seul
-            acteur dont les actions doit se mettre en question ? une reponse a
-            ces auestion necessite une observation du cycle de vie des donnees
-            personelle etant le milieu ou nos acteur qu'on definira peuvent
-            affecter .
+            Avant qu'on puisse répondre a notre question sur la possibilité de
+            protection il faut comprendre en premier pourquoi une telle question
+             existe : est qu'il surgit des pratiques des acteurs agissant sur
+            ces données personnelles ? Quelles sont ces acteurs ? Sont ils les
+            seuls acteurs dont les actions doivent se mettre en question ? Une
+            réponse a  ces questions nécessité une observation du cycle de vie
+            des données  personnelle étant le milieu ou nos acteurs qu'on
+            définira peuvent affecter.
           </p>
           <img src={cycle} />
 
           <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
-            en observant le shemas cidessous on peut distinguer les acteur
-            agissant directement sur les donnes personelles
+            En observant le schémas ci-dessous on peut distinguer les acteur
+            agissant directement sur les données personnelles
           </p>
         </div>
       </div>
@@ -81,9 +81,9 @@ export default function Section4() {
       <div className="flex flex-wrap text-center justify-center">
         <div className="w-full lg:w-9/12 px-4">
           <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
-            Suivant notre intuition d'ingenieur on a vu que la deuxiemme etape
-            apres avoir definis nos acteur et de distinguer quelques point
-            critique de notre systeme . qu'on les classe en deux type
+            Suivant notre intuition d'ingénieur on a vu que la deuxième étape
+            après avoir définis nos acteur et de distinguer quelques point
+            critique de notre système. Qu'on les classe en deux types
           </p>
         </div>
       </div>

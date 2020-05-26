@@ -27,10 +27,10 @@ export default function Section5() {
         <div className="container mx-auto px-4 ">
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
-              <p className="text-xl leading-relaxed mt-4 mb-4 text-black">
-                Une tel analyse nous permetra de tirer dune question largemant
-                vague des question bien precis dont on peut directemet
-                distinguer la controverse .
+              <p className="text-xl leading-relaxed mt-4 mb-4 text-black text-justify">
+                Une telle analyse nous permettra de tirer dune question
+                largement vague des questions bien précis dont on peut
+                directement distinguer la controverse .
               </p>
             </div>
           </div>
@@ -39,16 +39,16 @@ export default function Section5() {
           <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
             <i className="fas fa-user-friends text-xl"></i>
           </div>
-          <h3 className="text-3xl mb-2 font-semibold leading-normal">
+          <h3 className="text-3xl mb-2 font-semibold leading-normal ">
             Les solutions techniques sont-elles capables de protéger l’usage de
             mes données personnelles ?
           </h3>
-          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
             The message is clear: lower your data security risk profile. If you
             don’t need data, delete it. The less data you have, the less
             damaging a breach will be.
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
             If it’s sensitive, make sure it’s only accessible to those who need
             it. Old and stale files are expensive and risky, which is why we
             have retention policies and software solutions such as Varonis Data
@@ -59,7 +59,10 @@ export default function Section5() {
             </p>
           </p>
 
-          <Link to="/axe" className="font-bold text-gray-800 mt-8">
+          <Link
+            to="/axe"
+            className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm"
+          >
             Lire la suite ...
           </Link>
         </div>
@@ -165,12 +168,12 @@ export default function Section5() {
             Les solutions techniques sont-elles capables de protéger l’usage de
             mes données personnelles ?
           </h3>
-          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
             The message is clear: lower your data security risk profile. If you
             don’t need data, delete it. The less data you have, the less
             damaging a breach will be.
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
             If it’s sensitive, make sure it’s only accessible to those who need
             it. Old and stale files are expensive and risky, which is why we
             have retention policies and software solutions such as Varonis Data
@@ -195,12 +198,12 @@ export default function Section5() {
             Les solutions techniques sont-elles capables de protéger l’usage de
             mes données personnelles ?
           </h3>
-          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
             The message is clear: lower your data security risk profile. If you
             don’t need data, delete it. The less data you have, the less
             damaging a breach will be.
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
             If it’s sensitive, make sure it’s only accessible to those who need
             it. Old and stale files are expensive and risky, which is why we
             have retention policies and software solutions such as Varonis Data
@@ -315,12 +318,12 @@ export default function Section5() {
             Les solutions techniques sont-elles capables de protéger l’usage de
             mes données personnelles ?
           </h3>
-          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
             The message is clear: lower your data security risk profile. If you
             don’t need data, delete it. The less data you have, the less
             damaging a breach will be.
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
             If it’s sensitive, make sure it’s only accessible to those who need
             it. Old and stale files are expensive and risky, which is why we
             have retention policies and software solutions such as Varonis Data

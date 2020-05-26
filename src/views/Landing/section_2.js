@@ -52,7 +52,7 @@ const GraphWithText2 = () => (
     </div>
     <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
       <h3 className="text-3xl mb-2 font-semibold leading-normal">
-        Fact about data
+        Les données personelles face aux pratiques dangereuses
       </h3>
 
       <p className="text-justify  text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
