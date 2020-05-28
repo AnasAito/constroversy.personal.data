@@ -1,8 +1,12 @@
 import React from "react";
-import actors_tech from "../views/Landing/assets/actors_tech.png";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import ZoominSvg from "./zoominSvg";
-import ZoomoutSvg from "./zoomoutSvg";
+import actors_t from "../views/Landing/assets/actors_t.png";
+import args_t from "../views/Landing/assets/args_t.png";
+
+import Nav from "./nav";
+import {
+  ReactCompareSlider,
+  ReactCompareSliderImage
+} from "react-compare-slider";
 export default function Tab({ color }) {
   const [openTab, setOpenTab] = React.useState(0);
   return (
@@ -57,40 +61,11 @@ export default function Tab({ color }) {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 0 ? "block" : "hidden"} id="link2">
-                  <TransformWrapper>
-                    {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
-                      <React.Fragment>
-                        <div className="m-4">
-                          <span class="relative z-0 inline-flex shadow-sm">
-                            <button
-                              onClick={zoomIn}
-                              type="button"
-                              class="relative inline-flex items-center px-4 py-2 rounded-l-md border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150"
-                            >
-                              <ZoominSvg />
-                            </button>
-                            <button
-                              onClick={resetTransform}
-                              type="button"
-                              class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150"
-                            >
-                              <p className="font-bold">Reset</p>
-                            </button>
-                            <button
-                              onClick={zoomOut}
-                              type="button"
-                              class="-ml-px relative inline-flex items-center px-4 py-2 rounded-r-md border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150"
-                            >
-                              <ZoomoutSvg />
-                            </button>
-                          </span>
-                        </div>
-                        <TransformComponent>
-                          <img src={actors_tech} />
-                        </TransformComponent>
-                      </React.Fragment>
-                    )}
-                  </TransformWrapper>
+                  <Nav />
+                  <ReactCompareSlider
+                    itemTwo={<ReactCompareSliderImage src={actors_t} />}
+                    itemOne={<ReactCompareSliderImage src={args_t} />}
+                  />
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link3">
                   <p>Protection legislative des données personnelles</p>
