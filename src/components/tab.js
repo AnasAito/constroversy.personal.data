@@ -1,7 +1,8 @@
 import React from "react";
-import actors_t from "../views/Landing/assets/actors_t.png";
-import args_t from "../views/Landing/assets/args_t.png";
-
+//import actors_t from "../views/Landing/assets/actors_t.png";
+//import args_t from "../views/Landing/assets/args_t.png";
+import actors_te from "../views/Landing/assets/actors_te.jpeg";
+import args_te from "../views/Landing/assets/args_te.jpeg";
 import Nav from "./nav";
 import {
   ReactCompareSlider,
@@ -61,10 +62,21 @@ export default function Tab({ color }) {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 0 ? "block" : "hidden"} id="link2">
+                  <h2 className="text-2xl font-bold text-black">
+                    Les outis techniques peuvent aider à proteger les données
+                    personelles
+                  </h2>
                   <Nav />
                   <ReactCompareSlider
-                    itemTwo={<ReactCompareSliderImage src={actors_t} />}
-                    itemOne={<ReactCompareSliderImage src={args_t} />}
+                    handle={
+                      <div className="flex ">
+                        <span className="bg-gray-400 m-3 rounded-full  px-4 ">
+                          Slide It
+                        </span>
+                      </div>
+                    }
+                    itemOne={<ReactCompareSliderImage src={actors_te} />}
+                    itemTwo={<ReactCompareSliderImage src={args_te} />}
                   />
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link3">
