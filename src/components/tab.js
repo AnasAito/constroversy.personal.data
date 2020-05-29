@@ -62,9 +62,9 @@ export default function Tab({ color }) {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 0 ? "block" : "hidden"} id="link2">
-                  <h2 className="text-2xl font-bold text-black">
-                    Les outis techniques peuvent aider à proteger les données
-                    personelles
+                  <h2 className="text-2xl text-center font-bold text-black">
+                    Les outils techniques peuvent-ils assurer une protection des
+                    données personnelles ?
                   </h2>
                   <Nav />
                   <ReactCompareSlider
