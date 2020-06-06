@@ -44,40 +44,6 @@ export default function Profile() {
           <div className="container mx-auto px-4">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
-                <div>
-                  <div class="hidden sm:block">
-                    <div class="border-b border-gray-200">
-                      <nav class="-mb-px flex">
-                        <a
-                          href="#"
-                          class="w-1/4 py-4 px-1 text-center border-b-2 border-indigo-500 font-medium text-sm leading-5 text-indigo-600 focus:outline-none focus:text-indigo-800 focus:border-indigo-700"
-                        >
-                          Débat
-                        </a>
-                        <a
-                          href="#"
-                          class="w-1/4 py-4 px-1 text-center border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
-                        >
-                          Acteurs
-                        </a>
-                        <a
-                          href="#"
-                          class="w-1/4 py-4 px-1 text-center border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
-                          aria-current="page"
-                        >
-                          Cartographie
-                        </a>
-                        <a
-                          href="#"
-                          class="w-1/4 py-4 px-1 text-center border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
-                        >
-                          Interviews
-                        </a>
-                      </nav>
-                    </div>
-                  </div>
-                </div>
-
                 <div className="text-center mt-12">
                   <h3 className="text-3xl font-semibold leading-normal mb-2 text-gray-800 mb-2">
                     Les solutions techniques sont-elles capables de protéger

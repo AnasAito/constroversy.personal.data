@@ -1,11 +1,12 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function TableInter() {
   return (
     <div class="bg-white shadow overflow-hidden sm:rounded-md">
       <ul>
         <li>
-          <a
+          <Link
+            to="/inter/inter3"
             href="#"
             class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
           >
@@ -14,7 +15,7 @@ export default function TableInter() {
                 <div class="flex-shrink-0">
                   <img
                     class="h-12 w-12 rounded-full"
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="https://en.unesco.org/inclusivepolicylab/sites/default/files/pictures/picture-1557-1536827564.png"
                     alt=""
                   />
                 </div>
@@ -25,7 +26,7 @@ export default function TableInter() {
                     </div>
                     <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
                       <span class="truncate ">
-                        Research/ teaching fellow Information Communications
+                        Chercheur assistant , Lagos Business School, Nigeria
                       </span>
                     </div>
                   </div>
@@ -52,10 +53,11 @@ export default function TableInter() {
                 </svg>
               </div>
             </div>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
+            to="/inter/inter1"
             href="#"
             class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
           >
@@ -102,10 +104,11 @@ export default function TableInter() {
                 </svg>
               </div>
             </div>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
+            to="/inter/inter2"
             href="#"
             class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
           >
@@ -153,10 +156,11 @@ export default function TableInter() {
                 </svg>
               </div>
             </div>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
+            to="/inter/test"
             href="#"
             class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
           >
@@ -203,10 +207,11 @@ export default function TableInter() {
                 </svg>
               </div>
             </div>
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
+            to="/inter/test"
             href="#"
             class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out"
           >
@@ -254,7 +259,7 @@ export default function TableInter() {
                 </svg>
               </div>
             </div>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
