@@ -61,9 +61,9 @@ export default function Section5() {
 
           <Link
             to="/axe"
-            className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm"
+            className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
           >
-            Lire la suite ...
+            Lire la suite
           </Link>
         </div>
 
@@ -213,9 +213,12 @@ export default function Section5() {
               (should be replaced with abstract about the studied part)
             </p>
           </p>
-          <button className="font-bold text-gray-800 mt-8">
-            Lire la suite ...
-          </button>
+          <Link
+            to="/axe"
+            className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
+          >
+            Lire la suite
+          </Link>
         </div>
 
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -333,9 +336,12 @@ export default function Section5() {
               ( should be replaced with abstract about the studied part)
             </p>
           </p>
-          <button className="font-bold text-gray-800 mt-8">
-            Lire la suite ...
-          </button>
+          <Link
+            to="/axe/tech"
+            className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
+          >
+            Lire la suite
+          </Link>
         </div>
       </div>
     </section>
