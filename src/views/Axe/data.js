@@ -214,7 +214,252 @@ export const data = {
       </>
     )
   },
-  legi: { title: "legi title", content: <p>test</p> },
+  legi: {
+    title:
+      "Les procédures législatives actuelles assurent-elles une protection des données personnelles ?",
+    content: (
+      <div>
+        <p>
+          Tout au long de l'histoire la notion de la vie privée a refait surface
+          à maintes reprises. Alors que le mot est resté le même, sa
+          signification n'a cessé d'évoluer. Il n’existe pas de définition
+          légale de « la vie privée », en revanche les juges ont cerné cette
+          notion, en considérant une atteinte à la vie privée d’un individu
+          comme accès aux informations relatives à l’intimité de la personne
+          comme les données sur la vie familiale, la situation financière, état
+          de santé, convictions politiques ou religieuses, vie sexuelle etc…{" "}
+        </p>
+        <p>
+          Le concept de la vie privée, évoqué dès l’Antiquité, témoigne d’une
+          forte omniprésence depuis plusieurs certaines années, dans différentes
+          textes de loi, qui ont été conçues pour protéger l’intimité des
+          individus, compte tenu l’importance qui suscite la protection des
+          données à caractère personnel dans cette ère numérique. Où elles sont
+          devenues la matière première produite par tous appareils connectés
+          (Pc, Smartphone,…). Les producteurs sont les millions d’utilisateurs
+          de services en ligne gratuits qui, en échange, livrent quotidiennement
+          des informations aux géants du Web GAFAM (Google Apple Facebook Amazon
+          Microsoft) ou bien à des parties tiers, parfois sans même se rendre
+          compte. A cause d’un mal traitement, les utilisateurs des services en
+          lignes peuvent dans certains cas affronter des violations de leurs
+          données personnelles. En revenant au cadre législatif, plusieurs
+          questions se posent sur l’efficacité des lois sur la protection des
+          données à caractère personnelles:
+        </p>
+        <p>
+          Les procédures législatives actuelles assurent-elles une protection
+          des données personnelles ?
+        </p>
+        <p>I. "Le paquet européen" sur la protection des données :</p>
+        <p>
+          La législation de l’Union européenne en matière de protection des
+          données a longtemps été considérée comme une référence dans le monde
+          entier. Le droit de la protection des données personnelles n’est pas
+          un droit nouveau ca fut 40 ans d’existence, En effet, dès 1978, la
+          France s’est dotée d’une loi en matière. C’est la fameuse loi «
+          Informatique et Libertés » relative à l'informatique, aux fichiers et
+          aux libertés .sa promulgation était suscité par l’affaire SAFARI
+          (Système Automatisé pour les Fichiers Administratifs et le Répertoire
+          des Individus) un projet lancé per le gouvernement français en 1973,
+          elle se base sur une idée liberticide, de croiser les fichiers de
+          l’administration française, pour en faire un méga-fichier, et ainsi
+          tout savoir, de tout le monde afin de pouvoir identifier chaque
+          citoyen grâce à l'interconnexion de tous les fichiers de
+          l'administration. Le monde révèle ce projet le 21 mars 1974, avec son
+          article « Safari : ou la chasse aux français ».La résistance des
+          citoyens français une commission chargée de veiller à la protection
+          des données des citoyens dans le cadre de la nouvelle loi de 1978
+          relative à l'informatique, aux fichiers et aux libertés (dite "Loi
+          informatique et libertés"). La CNIL a alors pour mission d'accompagner
+          les évolutions informatiques, en veillant à ce que cela reste un
+          progrès pour les citoyens, sans atteinte à leur liberté ni à leur vie
+          privée.
+        </p>
+        <p>1- Une évolution en matière de droits des personnes concernées :</p>
+        <p>
+          Le RGPD introduit de nouveaux droits et rectifient d’autres anciennes
+          afin de garantir une protection des données personnelles des
+          individus. Il s’agit de :
+        </p>
+        <div>
+          <p> - le droit d’être informé : </p>
+          <p> - Le droit d'accès aux données : </p>
+          <p> - Le droit de rectification :</p>
+          <p> - Le droit d’opposition :</p>
+          <p> - Le droit à l'effacement :</p>
+          <p> - Droit à la limitation du traitement :</p>
+          <p> - Le droit à la portabilité des données :</p>
+          <p> -Le droit au refus du profilage ou de décisions automatisées :</p>
+        </div>
+        <p>
+          2- Une évolution d’obligation pour les responsables de traitement :
+        </p>
+        <p>
+          Parmi obligations imposées par Le RGPD sur les responsables de
+          traitements des données :{" "}
+        </p>
+        <div>
+          • Registre des activités de traitement (article 30) : • l’analyse
+          d’impact (article 35): • Protection des données dès la conception
+          «Privacy by design» (article 25) : • Protection des données par défaut
+          «Privacy by default» (article 25) : • Désignation d’un délégué à la
+          protection des données : 3- Un consentement « objective » : 4-
+          Alourdissement des sanctions :
+        </div>
+        <p>
+          Le RGPD consiste seulement à réguler l’utilisation des données
+          personnelles :
+        </p>
+        <p>
+          {" "}
+          Richard Stallman (un programmeur et militant du logiciel libre)
+          critique le Règlement Général de Protection des Données. En réagissant
+          au scandale Facebook/Cambridge Analytica, il responsabilise le RGPD de
+          ne pas aller assez loin, et qu’il il permet juste une protection
+          superficielle en régulant simplement l’usage des données. Selon lui,
+          il faut interdire de la collecte des informations relatives aux
+          individus « C’est pourquoi, au lieu de l’approche européenne qui
+          consiste seulement à réguler comment les données personnelles peuvent
+          être utilisées (avec le Règlement Général de Protection des Données ou
+          RGPD), je propose une loi qui interdirait aux systèmes de collecter
+          les données personnelles.»{" "}
+        </p>
+        <p>
+          Pour aboutir à ce résultat il recommande de construire des systèmes de
+          façon à remplir ses fonctionnalités principales sans collecter les
+          données. Stallman donne l’exemple d’une collecte illégitime faite par
+          le biais des cartes magnétiques utilisées par les systèmes de
+          transport (passe Navigo à paris) identifiant les individus et
+          collectant en permanences les informations sur leurs trajets tandis
+          qu’il est possible d’introduire la fonctionnalité de paiement de la
+          carte d’une manière à garantir l’anonymat de l’individu. Le RGPD
+          n’empêche pas ce type de collecte.
+        </p>
+        <p>
+          Le principe de protection par défaut du RGPD (privacy by default) est
+          mis en question :{" "}
+        </p>
+        <p>
+          La protection par défaut du RGPD dit que le droit de collecter des
+          données par un système est conditionné par le fait de justifier si ces
+          données sont strictement nécessaires à l’accomplissement de ses
+          fonctionnalités. Revenant à l’exemple des cartes magnétiques, est ce
+          que le RGPD va interdire les entreprises de transports concernées à
+          collecter les données via les cartes magnétiques parce qu’il existe un
+          moyen à le faire tout en gardant l’anonymat des utilisateurs ?
+        </p>
+        <p>
+          Le RGPD dit qu’un traitement réalisé sans finalité précise est
+          illicite, alors que Stallman propose que la finalité d’un traitement
+          soit en elle-même déclarée illicite s’il y a moyen de faire
+          fonctionner un système sans collecter de données personnelles, ce qui
+          n’est pas la même chose.
+        </p>
+        <p>
+          Les organisations et les entreprises peuvent facilement s’échapper du
+          RGPD :{" "}
+        </p>
+        <p>
+          Le RGPD accorde la permission aux organisations et entreprises de
+          collecter les données dès qu’ils sont utiles et nécessaires pour leurs
+          fonctionnements tandis qu’elles peuvent facilement justifier l’utilité
+          de la collecte{" "}
+        </p>
+        <p>
+          « Les nouvelles règles du RGPD partent d’une bonne intention, mais
+          elles ne vont pas assez loin. Elles n’apporteront pas un bénéfice
+          significatif en termes de protection de la vie privée, car elles
+          restent trop laxistes. Elles autorisent la collecte de n’importe
+          quelle donnée du moment qu’elles sont utiles pour un système et il est
+          toujours facile de justifier qu’une donnée est utile à quelque chose.»
+          Richard Stallman
+        </p>
+        <p>Une conception « subjectiviste » du consentement: </p>
+        <p>
+          Le RGPD exige très souvent que les utilisateurs donnent leur
+          consentement pour la collecte de leurs données. Il parait une très
+          bonne chose, mais Stallman regrette que cela ne fasse pas grand-chose.
+          Pourquoi ? Parce que « Les concepteurs de systèmes sont en effet
+          passés maître dans l’art de « fabriquer du consentement ». La plupart
+          des utilisateurs consentent aux conditions d’utilisation d’un service
+          sans même les lire […] Lorsqu’un service est crucial pour la vie
+          moderne, comme les bus ou les trains, les utilisateurs ignorent les
+          conditions imposées, car refuser de donner leur consentement leur
+          causerait un tort trop important.»
+        </p>
+        <p>
+          Parfois quand la personne exprime son opposition pour la collecte de
+          ses données personnelles cela peut engendrer une privation de certains
+          services, ce phénomène s’intitule le « chantage au service » qui reste
+          la règle dans l’environnement numérique, les plateformes placent
+          généralement les internautes face au choix d’accepter telles quelles
+          leurs conditions d’utilisation ou de renoncer au service qu’elles
+          proposent.
+        </p>
+        <p>
+          Le RGPD est trop contraignant et risque de renforcer le pouvoir des
+          GAFAM:
+        </p>
+        <p>
+          Pierre Calmar a annoncé sur son compte LinkedIn : ‘J’ose le dire. Le
+          RGPD a des vertus, certes. Mais résultant d’une action politique
+          destinée à plaire aux peuples d’un côté, et à certains lobbys de
+          l’autre, il engendre une réalité consternante : ruineux, destructeur,
+          et sublimant le pouvoir des GAFA.
+        </p>
+        <p>
+          L’union européenne tente depuis longtemps à mettre en œuvre des lois
+          permettant la protection des données personnelles, mais en réalité la
+          raison derrière est l’immense business réalisé sur les données
+          personnelles dans cette ère numérique et qui contribue en grandes
+          partie à la fiscalité des principaux pays européens. Et d’un autre
+          coté ça permet de regagner de la légitimité auprès des citoyens.
+        </p>
+        <p>
+          Le RGPD impose beaucoup de contrainte sur les entreprises de toutes
+          tailles comme les lourdes sanctions, les obligations laxistes. La
+          nature impraticable et laborieuse de ces processus constitue un
+          véritable inconvénient. Cependant pour les géant du web GAFAM (Google,
+          Apple, Facebook, Amazon, Microsoft) risque d’être favoriser. L’un des
+          principes du RGPD est la notion du consentement qui doit être libre,
+          clair et explicite. Cependant Google ou Facebook par exemple peuvent
+          obtenir ce consentement auprès de l’utilisateur d’une manière plus
+          facile en comparaison avec les sites ou les acteurs qui ont de
+          produits à vendre. Et à cause de la dominance des GAFAM du marché
+          numérique, dans l’inconscient du consommateur l’acceptation de la
+          nécessité de donner son consentement à la collecte et au traitement de
+          ses données personnelles sera plus fort s’il bénéficie des services en
+          lignes « gratuits » de la part de ces géants du web.
+        </p>
+        <p>
+          Un manque des lois sur la protection des données personnelles à
+          l’échelle africain :
+        </p>
+        <p>
+          Orientant l’angle vers l’Afrique, Seuls 24 pays Africains parmi 53
+          adoptent des lois de protection de données, le nombre est lentement en
+          augmentation. Dans ce contexte Bright Simons affirme que les données
+          africaines sont exploitées par les systèmes biométriques, et sont
+          gérées par des entreprises non-Africaines en dehors du territoire
+          Africain à cause du manque de mécanismes de protection des données
+          dans les pays de sud.{" "}
+        </p>
+        <p>
+          Même si certains d’eux possèdent des lois mais cela n’empêche qu’il
+          existe des failles, citons par exemple le cas du Maroc, La loi 09-08
+          régissant le travail du CNDP similaire à la loi française de 1978 sur
+          la protection des données, et le texte marocain semble imiter, ne
+          comprend pas en tant que « données protégées » les informations
+          relatives à la vie sexuelle d’une personne. En outre la loi marocaine
+          n’explique pas spécifiquement les conditions dans lesquelles une
+          dérogation à l’obligation d’information d’une personne concernée est
+          appliquée lorsque, par exemple, le traitement est effectué pour le
+          compte de l’Etat et lié à des questions de « sécurité de l’Etat », de
+          défense ou la sécurité publique.
+        </p>
+      </div>
+    )
+  },
   gouv: {
     title:
       "Le gouvernement doit-il décider la collection et l'usage des données personnelles ?",

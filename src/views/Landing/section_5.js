@@ -99,7 +99,7 @@ export default function Section5() {
                 - Producteurs des bases de données
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - Chercheur en Blockchain
+                - Chercheurs en technologie de Blockchain
               </p>
             </blockquote>
           </div>
@@ -156,27 +156,21 @@ export default function Section5() {
         </div>
         <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
           <h3 className="text-3xl mb-2 font-semibold leading-normal">
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
+            Les procédures législatives actuelles assurent-elles une protection
+            des données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
             The message is clear: lower your data security risk profile. If you
             don’t need data, delete it. The less data you have, the less
             damaging a breach will be.
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
-            If it’s sensitive, make sure it’s only accessible to those who need
-            it. Old and stale files are expensive and risky, which is why we
-            have retention policies and software solutions such as Varonis Data
-            Transport Engine – which helps archive, quarantine, and delete stale
-            (and regulated) data.
-            <p className="text-black font-bold">
-              (should be replaced with abstract about the studied part)
-            </p>
-          </p>
-          <button className="font-bold text-gray-800 mt-8">
+
+          <Link
+            to="/axe/legi"
+            className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
+          >
             Lire la suite ...
-          </button>
+          </Link>
         </div>
       </div>
       {/*next  */}
