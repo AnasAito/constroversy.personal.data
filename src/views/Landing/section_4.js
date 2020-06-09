@@ -65,7 +65,7 @@ export default function Section4() {
           <Card
             title="
             service provider"
-            content="nombre de fichiers contenant des données sensibles dans l'entreprise courante"
+            content="Nombre de fichiers contenant des données sensibles dans l'entreprise courante"
           />
         </div>
 
@@ -82,9 +82,25 @@ export default function Section4() {
         <div className="w-full lg:w-9/12 px-4">
           <p className="text-lg text-justify leading-relaxed mt-4 mb-4 text-gray-700">
             Suivant notre intuition d'ingénieur on a vu que la deuxième étape
-            après avoir définis nos acteur et de distinguer quelques point
-            critique de notre système. Qu'on les classe en deux types
+            après avoir définis nos acteurs et de distinguer quelques points
+            critiques de notre système. Qu'on les classe en deux types
           </p>
+        </div>
+        <div className="flex flex-wrap">
+          <div className=" pt-6 w-full md:w-6/12 px-4 text-center">
+            <Card
+              title="Partie interne "
+              content="une architecture classique le service provider est responsable de proteger les donnée personelles de ces clients en employant des solutions technique qui garantit la securité . ces solution baigne dans une architecture centralisé : le service provider possede le serveur et donc il est impossible de superviser ces actions vis a vis nos données stockées  "
+            />
+          </div>
+
+          <div className="pt-6 w-full md:w-6/12 px-4 text-center">
+            <Card
+              title="Partie externe  "
+              content="
+              ce systeme regroupant en interne les different acteur agissant sur la données personelles recoit des actions externe de la part du corps legislative via des loi viasant a orchestrer ces relations interne pour un seul noble but : la protections des données personelles . mais y a aussi l'etat avec son poids et ses but moral peut y acceder elle meme aux données au sein de ce systeme "
+            />
+          </div>
         </div>
       </div>
     </section>

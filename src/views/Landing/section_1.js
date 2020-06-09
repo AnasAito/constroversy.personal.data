@@ -22,9 +22,9 @@ export default function Section_1() {
       </div>
       <div className="container relative mx-auto">
         <div className="items-center flex flex-wrap">
-          <div className="w-full lg:w-5/12 px-4 ml-auto mr-auto text-center">
+          <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div className="pr-11">
-              <h1 className="text-white font-semibold text-5xl">
+              <h1 className="text-white font-semibold text-6xl">
                 Peut on protéger l’usage de nos données personnelles ?
               </h1>
             </div>

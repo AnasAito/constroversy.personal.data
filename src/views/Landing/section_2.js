@@ -41,14 +41,14 @@ const GraphWithText = () => (
     </div>
 
     <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-      <BarChart />
+      <LineChart />
     </div>
   </div>
 );
 const GraphWithText2 = () => (
   <div className="flex flex-wrap items-center justify-between mt-10">
     <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-      <LineChart />
+      <BarChart />
     </div>
     <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
       <h3 className="text-3xl mb-2 font-semibold leading-normal">
@@ -83,15 +83,14 @@ export default function Section2() {
           <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <Card
               title="4,1 milliards"
-              content="nombre d'enregistrements de données compromis au cours des six premiers mois de 2019 seulement"
+              content="Nombre d'enregistrements de données compromis au cours des six premiers mois de 2019 seulement"
             />
           </div>
 
           <div className="w-full md:w-4/12 px-4 text-center">
             <Card
-              title="
-              534 465"
-              content="nombre de fichiers contenant des données sensibles dans l'entreprise courante"
+              title="534 465"
+              content="Nombre de fichiers contenant des données sensibles dans l'entreprise courante"
             />
           </div>
 

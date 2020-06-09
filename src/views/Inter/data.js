@@ -126,5 +126,91 @@ export const data = {
           "D’accord. Je propose d’adopter de nouveaux modèles sur l’utilisateur pour la gestion des données personnelles afin de permettre aux individus de mieux contrôler le cycle de vie de leurs propres données. Un pilier de ces approches est un écosystème de données personnelles, composé de coffres-forts sécurisés de données personnelles sur lesquels les propriétaires disposent d’un contrôle total. Une façon d’ouvrir les données, mais d’éviter de se mêler des problèmes de confidentialité et d’incitations commerciales, est de fournir un accès aux données via une partie externe fiable et indépendante telle que des bureaux de statistiques gouvernementaux indépendants. Selon ce modèle, ce ne seront plus des sociétés privées de données qui décideront quelles parties de leurs données seront divulguées, à qui et dans quelles conditions. Ce sera plutôt le régulateur indépendant des données, qui rendra obligatoire la divulgation de certaines données dans les conditions prévues par la loi "
       }
     ]
+  },
+  inter4: {
+    title: "Entretien avec Helmut SORGE",
+    subTitle: "Professeur en géopolitique et relations internationales",
+    content: [
+      {
+        question:
+          "Dans quelle mesure les lois sur la protection des données sont-elles capables de contrôler la collecte et l'utilisation des données personnelles et, par conséquent, de protéger les personnes concernées contre les violations de données ?",
+        resp: `Aucune loi n'est assez forte devant l'IA et son évolution effrayante, aussi courageuse et aussi bonne soit-elle,
+
+        Parlons de l'application des lois : qui de tous les organismes chargés de l'application des lois, combien de personnes ont-ils qui sont des experts dans ces domaines ?
+        
+        Entre la cyberguerre, les cybercrimes et l'IA, qui peut contrôler tout cela et protéger les citoyens contre tout cela.
+        
+        C'est tellement compliqué, les gouvernements doivent faire face à des problèmes universels, y a-t-il suffisamment de personnes expérimentées qui peuvent y faire face ?
+        
+        S'opposer à tout cela nécessite beaucoup d'argent, de l'argent que les États-Unis, la Chine ou la Russie peuvent se permettre, mais qu'en est-il des petites nations comme les nations africaines.`
+      },
+      {
+        question:
+          "Le gouvernement devrait-il décider de la collecte et de l'utilisation des données personnelles ?",
+        resp: `Avec les meilleures lois du monde, si le gouvernement sent qu'il doit écouter vos appels téléphoniques, il le fera.
+
+        Je crois à la démocratie, à la liberté d’expression et à la liberté de la presse, à laquelle j’appartiens depuis longtemps, qui a le droit de remettre en cause le gouvernement et ses décisions, je ne pense pas que les gouvernements devraient être tenus responsables de leurs erreurs.
+        
+        Un gouvernement doit être transparent, montrer à ses citoyens ce qu'il utilise pour prendre ses décisions. Les gouvernements devraient justifier leurs actions et justifier les clauses d'une
+        
+        loi, car normalement, les représentants des gouvernements sont les représentants du peuple, votés par le peuple, et les représentants du peuple devraient avoir à décider quelles lois sont utilisées par le gouvernement`
+      },
+      {
+        question:
+          "Les internautes sont-ils conscients du danger d'une mauvaise utilisation des données personnelles ? Connaissent-ils les informations que les sociétés commerciales et les sites Web ont sur leur identité numérique ?",
+        resp: `Les jeunes générations sont plus conscientes des dangers d'une mauvaise utilisation des données personnelles, du moins en Europe.
+
+        Je pense que les générations plus âgées ne sont pas dans les nouvelles technologies et les médias sociaux, alors ne vous inquiétez pas.
+        
+        Les gens ont tendance à penser qu'il y a un grand frère dans les coulisses, contrôlant tout et tout le monde, et cette suspicion est justifiée, car la NSA, par exemple, dispose d'un ensemble de satellites qui lui permet d'écouter n'importe quel appel téléphonique n'importe où dans le monde… C'est également le cas des données personnelles sur Internet.
+        
+        Aucune loi ne peut véritablement protéger nos données personnelles, car le système de collecte des données est si vaste, abstrait et intelligent.`
+      },
+      {
+        question:
+          "Quelles alternatives proposez-vous au modèle de lois en vigueur ?",
+        resp: `Si vous ne voulez pas être soumis à la manipulation de données, réduisez votre utilisation sur Facebook, WhatsApp ...
+
+        La loi en soi est pour un citoyen normal inutile, les solutions techniques sont la seule solution.`
+      },
+      {
+        question:
+          "La même année, le nouveau règlement général de l'UE sur la protection des données (RGPD) est entré en vigueur, la Commission européenne a présenté une stratégie en matière d'IA et, en 2019, a défini des lignes directrices éthiques pour une IA fiable. Que pensez-vous de l'efficacité de ces lignes directrices ? Et comment interagissent-ils avec le RGPD?",
+        resp: `L'IA est mondiale, alors comment obligez-vous la Chine, la Corée du Nord, à respecter ces lois ?
+
+      Je pense que c'est une décision très théorique.
+      
+      L'IA fonctionne avec la théorie de Pavlov, les robots sont récompensés une fois qu'ils ont accompli une tâche, mais la question est de savoir comment s'assurer qu'ils ne deviendraient pas indépendants ? Croire que ces robots obéiront et respecteront toujours une certaine directive éthique est une illusion
+      
+      L'évolution de l'IA est effrayante, dans quelques années, nous n'aurons pas de pilotes, car l'avion sera automatisé, il y aura si peu de médecins, et nous serons connectés à des machines pour obtenir des soins médicaux, il n'y aura pas de cash aussi, il y aura des voitures sans chauffeur, c'est notre avenir, et tout cela est dû à l'intelligence artificielle.
+      
+      Et puis nous avons la Commission européenne, aussi courageuse soit-elle, qui forme des directives éthiques pour les robots et le deep learning: comment amener le monde entier à s'entendre là-dessus?`
+      }
+    ]
+  },
+  inter5: {
+    title: "Entretien avec HOUPHOUËT Boris Pacôme",
+    subTitle:
+      "Juriste et consultant en protection des données à caractère personnel",
+    content: [
+      {
+        question:
+          "Dans un contexte législatif marocain, pensez-vous que les lois deprotection des données personnelles au Maroc permettent réellement une protection deces données, une maîtrise de leur collecte et de leur usage.",
+        resp:
+          "Loi n° 09-08 relative à la protection des personnes physiques à l’égard du traitement des données àcaractère personnel permet réellement d'atteindre ce but. En effet à l'image des autres textesapplicables en Afrique et même en Europe (RGPD), cette loi respecte les standards internationaux enmatière de protection des données personnelles, en prévoyant les droits et obligations des personnesconcernées et des responsables du traitement, l'institution d'une autorité de protection des donnéespersonnelles en l’occurrence  la Commission Nationale de contrôle de la protection des donnéespersonnelles CNDP. Elle prévoie également l'encadrement des transferts des données personnelles àl'étranger (article 43). La Commission nationale établit la liste des Etats répondant aux critères des Etatsqui assurent un niveau de protection suffisant de la vie privée et des libertés et droits fondamentaux despersonnes à l’égard du traitement dont ces données font l’objet ou peuvent faire l’objet."
+      },
+      {
+        question:
+          "En traitant l'exemple de plusieurs entreprises qui collectent,traitent et stockent des données à caractère personnel, il s'avère qu'elles emploient unearchitecture centralisée. Dans ce cas, le processus du traitement est souvent moins claireet expliqué pour les personnes concernées. Alors peut-on affirmer que les solutionstechniques employées actuellement sont effectivement capables de garantir uneprotection dans la collecte et l'usage des données personnelles?",
+        resp:
+          "Dans un tel contexte, il convient de reconnaître que le droit à l'information prévu par les textes envigueur , ne saurait être respecté. En effet selon l'article 5 de la loi N°09-08 relative à la protection desdonnées personnelles, toute personne sollicitée directement, en vue d’une collecte de ses donnéespersonnelles, doit être préalablement informée de manière expresse, précise et non équivoque par leresponsable du traitement ou son représentant. Le droit à l'information est très important d'autant plusque celui ci déterminera la qualité du consentement de la personne concernée afin que le traitement soitloyal. Ainsi il est important que les solutions développées par les entreprises prennent en compte cetaspect."
+      },
+      {
+        question:
+          "En analysant le cycle de vie des données à caractère personnel,nous pouvons nous demander le sort de ces données après leur collecte et traitement pardes prestataires de services. Ces données peuvent être employées dans des stratégies deprospection ou de ciblage par exemple. Pensez-vous que le transfert des donnéespersonnelles des prestataires de services vers des tiers doit être autorisé?",
+        resp:
+          "Selon l'article 9 de la loi marocaine sur la protection des données personnelles, la personne dont lesdonnées feront l'objet d'un traitement ( transfert des données personnelles) a le droit de s’opposer, sansfrais, à ce que les données la concernant soient utilisées à des fins de prospection, notammentcommerciale, par le responsable actuel du traitement ou celui d’un traitement ultérieur. Toutefoislorsqu'elle donne son consentement à tel traitement, alors ce traitement des données personnelles peutêtre autorisé.Aussi selon l'article 12, Il faudrait aussi savoir que , lorsque les données personnelles collectées sontutilisées pour d'autres fins que celles pour lesquelles elles ont été préalablement collectées, ellesdoivent faire l'objet d'autorisation par la CNDP. D'où sans l'autorisation un tel traitement ne respecteraitpas conforme aux dispositions en vigueur."
+      }
+    ]
   }
 };

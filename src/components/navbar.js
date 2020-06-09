@@ -34,20 +34,8 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
-                <a
-                  className={
-                    (props.transparent
-                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                      : "text-gray-800 hover:text-gray-600") +
-                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  }
-                  href="#"
-                >
-                  Nos interviews
-                </a>
-              </li>
-              <li className="flex items-center">
-                <a
+                <Link
+                  to="/source"
                   className={
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
@@ -57,7 +45,7 @@ export default function Navbar(props) {
                   href="#"
                 >
                   Nos sources
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -129,7 +117,8 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <button
+                <Link
+                  to="/us"
                   className={
                     (props.transparent
                       ? "bg-white text-gray-800 active:bg-gray-100"
@@ -141,7 +130,7 @@ export default function Navbar(props) {
                 >
                   <i className="fas fa-arrow-alt-circle-down"></i> Qui-sommes
                   nous ?
-                </button>
+                </Link>
               </li>
             </ul>
           </div>

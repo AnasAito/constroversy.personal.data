@@ -28,7 +28,7 @@ export default function Section5() {
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
               <p className="text-xl leading-relaxed mt-4 mb-4 text-black text-justify">
-                Une telle analyse nous permettra de tirer dune question
+                Une telle analyse nous permettra de tirer d'une question
                 largement vague des questions bien précis dont on peut
                 directement distinguer la controverse .
               </p>
@@ -36,54 +36,40 @@ export default function Section5() {
           </div>
         </div>
         <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-          <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-            <i className="fas fa-user-friends text-xl"></i>
-          </div>
           <h3 className="text-3xl mb-2 font-semibold leading-normal ">
             Les solutions techniques sont-elles capables de protéger l’usage de
             mes données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
-            The message is clear: lower your data security risk profile. If you
-            don’t need data, delete it. The less data you have, the less
-            damaging a breach will be.
-          </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
-            If it’s sensitive, make sure it’s only accessible to those who need
-            it. Old and stale files are expensive and risky, which is why we
-            have retention policies and software solutions such as Varonis Data
-            Transport Engine – which helps archive, quarantine, and delete stale
-            (and regulated) data.
-            <p className="text-black font-bold">
-              (should be replaced with abstract about the studied part)
-            </p>
+            La question des données personnelles ne peut être totalement cernée
+            sans recours à sa composante technique. Les méthodes utilisées pour
+            récolter les données à caractère personnel se sont développées pour
+            répondre aux besoins des entreprises tierces, lorsque celles qui
+            préviennent ces pratiques peinent encore à poser d'innovantes
+            barrières. Tout cela pose l'utilisateur lambda devant un dilemme
+            technologique inouï .
           </p>
 
           <Link
-            to="/axe"
+            to="/axe/tech"
             className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
           >
-            Lire la suite
+            Lire la suite ...
           </Link>
         </div>
 
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-          <p className="text-xl font-bold text-center">Actors</p>
           <div className="relative flex  rounded-lg flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500">
             <div className="text-md font-light m-10 text-white">
               <h4 className="text-xl font-bold text-white">Contre : </h4>
               <p className="text-md font-light mt-2 text-white">
-                - Commission Nationale de Contrôle de Protection des Données à
-                Caractère Personnel (Cndp)
+                - Ridwan Oloyede
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Simons Bright
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Al Massae, BBC Arabia, Assabah (Media)
               </p>
             </div>
             <blockquote className="relative p-8  bg-green-300">
@@ -104,7 +90,16 @@ export default function Section5() {
               </svg>
               <h4 className="text-xl font-bold text-white">Pour : </h4>
               <p className="text-md font-light mt-2 text-white">
-                The Arctic Ocean freezes
+                - Facebook ,Google
+              </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Développeurs et entreprises informatiques
+              </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Producteurs des bases de données
+              </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Chercheur en Blockchain
               </p>
             </blockquote>
           </div>
@@ -113,7 +108,6 @@ export default function Section5() {
       {/* next question */}
       <div className=" bg-gray-200 flex flex-wrap items-center mt-32">
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-          <p className="text-xl font-bold text-center">Actors</p>
           <div className="relative flex  rounded-lg flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500">
             <div className="text-md font-light m-10 text-white">
               <h4 className="text-xl font-bold text-white">Contre : </h4>
@@ -161,9 +155,6 @@ export default function Section5() {
           </div>
         </div>
         <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-          <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-            <i className="fas fa-user-friends text-xl"></i>
-          </div>
           <h3 className="text-3xl mb-2 font-semibold leading-normal">
             Les solutions techniques sont-elles capables de protéger l’usage de
             mes données personnelles ?
@@ -191,53 +182,44 @@ export default function Section5() {
       {/*next  */}
       <div className=" bg-gray-200 flex flex-wrap items-center mt-32">
         <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-          <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-            <i className="fas fa-user-friends text-xl"></i>
-          </div>
           <h3 className="text-3xl mb-2 font-semibold leading-normal">
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
+            Le transfert de ces données vers des tierces entités ,doit-il encore
+            être autorisé?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
-            The message is clear: lower your data security risk profile. If you
-            don’t need data, delete it. The less data you have, the less
-            damaging a breach will be.
+            Une fois stockées par des prestataires de services, les données
+            personnelles, sont souvent traitées et regroupées en employant des
+            technologies variantes selon le domaine pour lequel elles sont
+            destinées, pour être transmises après à des tierces entités. Ces
+            transferts sont souvent justifiés par une volonté d'amélioration de
+            l'expérience utilisateur et de personnalisation de contenus.
+            Toutefois, d'autres acteurs tels que des spécialistes en digital
+            soulignent que ces données peuvent être transmises, même sans la
+            conscience et le consentement du sujet, pour des objectifs de
+            ciblage, de prospection personnalisée ou même pour des raisons de
+            surveillance....
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
-            If it’s sensitive, make sure it’s only accessible to those who need
-            it. Old and stale files are expensive and risky, which is why we
-            have retention policies and software solutions such as Varonis Data
-            Transport Engine – which helps archive, quarantine, and delete stale
-            (and regulated) data.
-            <p className="text-black font-bold">
-              (should be replaced with abstract about the studied part)
-            </p>
-          </p>
+
           <Link
-            to="/axe"
+            to="/axe/tiers"
             className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
           >
-            Lire la suite
+            Lire la suite ...
           </Link>
         </div>
 
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-          <p className="text-xl font-bold text-center">Actors</p>
           <div className="relative flex  rounded-lg flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500">
             <div className="text-md font-light m-10 text-white">
               <h4 className="text-xl font-bold text-white">Contre : </h4>
+              <p className="text-md font-light mt-2 text-white">- COHERIS</p>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Raymond Onuoha
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Itissalate Al-Maghrib,Médi Telecom et Wana Corporate.
               </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
+              <p className="text-md font-light mt-2 text-white">- Experian</p>
             </div>
             <blockquote className="relative p-8  bg-green-300">
               <svg
@@ -257,8 +239,12 @@ export default function Section5() {
               </svg>
               <h4 className="text-xl font-bold text-white">Pour : </h4>
               <p className="text-md font-light mt-2 text-white">
-                The Arctic Ocean freezes
+                - Mallorie Wozny
               </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Simons Bright
+              </p>
+              <p className="text-md font-light mt-2 text-white">- DuckDuckGo</p>
             </blockquote>
           </div>
         </div>
@@ -266,7 +252,6 @@ export default function Section5() {
       {/*next  */}
       <div className=" bg-gray-200 flex flex-wrap items-center mt-32">
         <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-          <p className="text-xl font-bold text-center">Actors</p>
           <div className="relative flex  rounded-lg flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500">
             <div className="text-md font-light m-10 text-white">
               <h4 className="text-xl font-bold text-white">Contre : </h4>
@@ -314,30 +299,23 @@ export default function Section5() {
           </div>
         </div>
         <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-          <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-            <i className="fas fa-user-friends text-xl"></i>
-          </div>
           <h3 className="text-3xl mb-2 font-semibold leading-normal">
-            Les solutions techniques sont-elles capables de protéger l’usage de
-            mes données personnelles ?
+            Le gouvernement doit-il décider la collection et l'usage des données
+            personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
-            The message is clear: lower your data security risk profile. If you
-            don’t need data, delete it. The less data you have, the less
-            damaging a breach will be.
+            Compte tenu de l'autorité et le champs d'actions du gouvernement via
+            ces entités ce dernier peut y accéder à des bases volumineux de
+            données à caractère personnelles traité et utilisé sous le couvert
+            de l'intérêt public .Ou bien elle peut mettre en place des
+            technologies permettant l'accès aux données personnelles des
+            citoyens sans consentement . Ces actions qui contredit selon
+            plusieurs acteurs les principes des législations mise en place pour
+            garantir une protection de la vie privées des individus .
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700 text-justify">
-            If it’s sensitive, make sure it’s only accessible to those who need
-            it. Old and stale files are expensive and risky, which is why we
-            have retention policies and software solutions such as Varonis Data
-            Transport Engine – which helps archive, quarantine, and delete stale
-            (and regulated) data.
-            <p className="text-black font-bold">
-              ( should be replaced with abstract about the studied part)
-            </p>
-          </p>
+
           <Link
-            to="/axe/tech"
+            to="/axe/gouv"
             className="font-bold text-gray-800 mt-8 inline-flex  shadow-sm cursor-pointer text-blue-500"
           >
             Lire la suite
