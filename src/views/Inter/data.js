@@ -76,24 +76,79 @@ export const data = {
     ]
   },
   inter2: {
-    title: "Entretien avec Dr Mouhamadou Lo",
-    subTitle:
-      "Juriste, Expert en Droit des TIC et ex Président de la Commission de protection des données personnelles (CDP)",
+    title: "Entretien avec Dr. Patricia Boshe",
+    subTitle: ` Conférencier à l'Open University of Tanzania et
+      codirectrice de l'Institut africain de droit et de
+      technologie (AFRILTI)`,
     content: [
       {
-        question: `Il n'y a pas d'informations et de services gratuits sur le net, tout est payé par nos données personnelles". Qu’en pensez-vous, est-ce que c'est vrai ?`,
+        question: `Les lois sur la protection des données sont capables de contrôler la collecte et l'utilisation des données personnelles et, par conséquent, de protéger les personnes concernées contre les violations de données? (Nous nous concentrons sur le RGPD et les lois sur la protection des données en Afrique)`,
         resp:
-          "Effectivement? La donnée est devenue un bien marchand, très convoité."
+          "En fournissant des règles, des procédures et des limites pour la collecte, le stockage et le traitement des données; droits et devoirs (à la fois à la personne concernée et au sous-traitant) ainsi que les recours et les mécanismes d'application en cas de violation."
+      },
+      {
+        question:
+          "Le règlement général sur la protection des données (RGPD) est un modèle efficace pour les lois sur la protection des données.",
+        resp:
+          "Il est efficace dans la mesure où il fournit des règles pratiques pour la protection des données en général. Cependant, il est nécessaire d'avoir une protection spécifique pour des secteurs spécifiques tels que l'Internet des objets ... Télécommunications, etc."
+      },
+      {
+        question: "Le RGPD: quels enjeux pour l'Afrique?",
+        resp:
+          "Échange de données (informations) et donc commerce et économie en général. Cela est dû au fait que la plupart des États africains n'ont pas de lois de protection des données personnelles en place ou que leurs lois ne réussissent pas le test d'efficacité en vertu du RGPD et donc une restriction à l'échange de données avec tout pays de l'UE faute de protection suffisante ."
       },
       {
         question: "Une version africaine du RGPD est-elle possible?",
         resp:
-          "Oui mais il ne faut accepter cette stratégie consistant à ériger des textes par zone géographique."
+          "Cela peut être possible mais peut ne pas être pratique sur la base des différences d'idéologies entre les sociétés africaines (communalisme ... Ubuntu) et l'idée sous-jacente du RGPD de l'individualisme. C'est pourquoi la loi sud-africaine sur la protection des données personnelles a mis environ 10 ans à essayer de trouver un équilibre entre la loi de l'UE sur la protection des données (d'ici là la directive de 1995) et les réalités africaines tout en réussissant le `` test de protection suffisante '' en vertu du droit de l'UE pour permettre d'une part le flux de données avec l'UE et la protection des données et du patrimoine africains d'une manière acceptable et comprise en Afrique par les africains."
       },
       {
         question:
-          "Il existe des solutions techniques capables de protéger la collecte et l'utilisation de mes données personnelles ?",
-        resp: `Oui , Rendre obligatoire le principe "privacy by design"`
+          "Quelles alternatives proposez-vous au modèle des lois actuelles? (Moyens d'améliorer de la protection des données à caractère personnel en Afrique).",
+        resp:
+          "Contrat de transfert de données peut-être. Mais idéalement, les pays africains pourraient essayer d'équilibrer les différences d'idéologies et proposer une loi globale (comme ce que l'Afrique du Sud a fait) car à un moment donné ... avoir une loi globale va être inévitable ... les pays africains ne peut pas compter sur les contrats de protection des données à chaque fois qu'ils souhaitent s'engager avec l'UE par exemple. Un système ... un système fiable doit être mis en place."
+      },
+      {
+        question:
+          "Quel impact ces lois ont-elles sur les géants du Web GAFAM (Google, Apple, Facebook, Amazon, Microsoft)?",
+        resp:
+          "Eh bien ... nous avons vu certains d'entre eux être traînés devant les tribunaux et payer des amendes pour les violations de données ... je dirais ... ils ont un impact ... ils aident à minimiser l'utilisation abusive des données personnelles, bien qu'ils bénéficient toujours de l’utilisation des données personnelles sans divulgation totale aux personnes concernées."
+      },
+      {
+        question:
+          "Les nouvelles lois nationales ou internationales ont-elles modifié les relations entre les entreprises et leurs clients? Si oui, dans quel sens?",
+        resp:
+          "Avant, les entreprises contrôlaient les données qui leur étaient soumises par des particuliers ... elles pouvaient tout faire avec de telles données, mais maintenant les personnes concernées ont plus de contrôle sur leurs données personnelles ... en vertu de la loi ... leurs données ne peuvent être traitées qu'à des fins acceptées et les personnes concernées, peuvent à tout moment demander la fin de ce traitement ou la suppression de données. Ce que je veux dire, c'est que les personnes concernées contrôlent les données et que les entreprises ont besoin de l'autorisation des personnes concernées pour utiliser l'une des données. Avant les lois de protection des données, les entreprises n'avaient besoin d'aucune autorisation pour traiter les données personnelles."
+      },
+      {
+        question:
+          "Le gouvernement devrait décider de la collecte et de l'utilisation des données personnelles.",
+        resp:
+          "L'idée derrière les lois de protection des données personnelles est de se débarrasser du contrôle du gouvernement sur les données personnelles ... c'est ainsi que l'idée est née au départ ... si les gouvernements reçoivent ce pouvoir, alors l'individu sera privé de ses droits sur ses données personnelles et finalement son intimité."
+      },
+      {
+        question:
+          "Le transfert de données personnelles de prestataires de services à des parties tiers doit être autorisé.",
+        resp:
+          "L'autorisation ne doit être obtenue qu'avec le consentement éclairé de la personne concernée (qui va de pair avec la finalité du traitement par un tiers). Sinon, la chaîne de responsabilité se rompt une fois que les données sont entre les mains du tiers, tout comme la protection offerte dans le premier endroit."
+      },
+      {
+        question:
+          "Dans la plupart des États africains, il n'existe pas de législation ou d'organisme de protection des données à caractère personnel. Selon vous, quelle est la raison derrière cela ? et quelles retombées seront générées à cause de leur absence?",
+        resp:
+          "Les lois de protection des données personnelles sont une créature de l'individualisme ... elles visent à protéger le droit individuel à la vie privée au-dessus des autres droits communautaires. Le droit au secret ... en d'autres termes. Cela va à l'encontre de l'esprit d'Ubuntu. Par conséquent, les lois de protection des données sont plus étrangères aux normes sociales africaines. Il peut falloir du temps pour avoir une acceptation politique et encore moins sociale."
+      },
+      {
+        question:
+          "L'Afrique souffre toujours de l'absence d'un cadre réglementaire général sur la protection des données personnelles. Cela a également été confirmé lors du scandale Cambridge Analytica, la société a accusé en mars 2018 d'avoir collecté des données de 87 millions de profils Facebook et de les avoir utilisées pour influencer les élections au Nigeria en 2007 et 2015, aux États-Unis en 2016, tout comme le Brexit , ou au Kenya en 2017. Alors que l'Europe a sévèrement réagi à travers plusieurs auditions de Mark Zuckerberg, le fondateur de Facebook. Les lois africaines ont-elles été appliquées dans cette situation ou sont-elles restées passives?",
+        resp:
+          "La plupart des lois africaines sur la protection des données personnelles restent non appliquées. Ils ont été adoptés en réaction à la directive européenne ... dans le but de rester dans le flux de données avec les États de l'UE. C'était une décision désespérée et c'est pourquoi, presque tous (à l'exception de l'Afrique du Sud) ont adopté la directive européenne de 1995 en mode copier-coller avec quelques modifications. Ils ne sont pas mis en œuvre parce que certains ne savent pas comment les mettre en œuvre ... certains n'ont pas réussi à créer l'organe de mise en œuvre.. (Parce que ... contrairement à d'autres lois ... les lois de protection des données personnelles ont leur propre mécanisme d'application et c'est pourquoi en Afrique elles sont un défi) ..... Il y a un long chemin à parcourir pour l'Afrique ...."
+      },
+      {
+        question:
+          "En absence des lois dans certains pays africains, peut-on dire que l'exploitation des données personnelles africaines par des organisations non territoriales est une sorte de colonisation numérique? Y a-t-il des initiatives de la part des organisations africaines à cet égard?",
+        resp:
+          "Il y a beaucoup d'initiatives ... L'Union africaine a la Convention de l'UA sur la cybersécurité et la protection des données, la SADC a la sienne, la CEDEAO et la Communauté de l'Afrique de l'Est ... ces instruments sont là ... certains avec plus de 10 ans. Le problème est le même .... la mise en œuvre. Il n'y a aucune volonté politique d'appliquer ces lois en Afrique."
       }
     ]
   },

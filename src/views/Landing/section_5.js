@@ -160,9 +160,22 @@ export default function Section5() {
             des données personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
-            The message is clear: lower your data security risk profile. If you
-            don’t need data, delete it. The less data you have, the less
-            damaging a breach will be.
+            Le droit au respect de la vie privée est un droit humain
+            fondamental. La vie privée des individus doit être protégée contre
+            toutes les atteintes qui peuvent l’affecter, notamment celles qui
+            portent sur leurs informations personnelles.
+          </p>
+          <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
+            Avec le développement croissant des technologies de l’information,
+            Internet est devenu un outil incontournable de communication et
+            d’échanges en tous genres. La protection de la vie privée et des
+            données personnelles est devenue un sujet de préoccupation majeur de
+            nos sociétés modernes, est d’une importance indéniable dans cette
+            ère numérique, ce qui a engendré une impulsion forte pour promulguer
+            et adopter des lois et des textes juridiques par certains
+            organismes. Mais la question qui se pose sur l’efficacité de ces
+            lois : Les procédures législatives actuelles assurent-elles une
+            protection des données personnelles ?
           </p>
 
           <Link

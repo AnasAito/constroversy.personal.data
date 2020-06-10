@@ -2,10 +2,12 @@ import React from "react";
 
 export const data = {
   tech: {
-    title: "tech title",
+    title:
+      "tech title Les solutions techniques sont-elles capables de protéger l’usage de mes données personnelles ?",
+    detail: "29 / 05 / 2020",
     content: (
       <>
-        <p>
+        <p className="py-2 ">
           On ne peut pas parler du sujet de protection des données personnelles
           sans traiter le côté technique du sujet, car l'évolution des outils
           digitaux d'information et de communication est toujours en évolution ;
@@ -19,12 +21,12 @@ export const data = {
           ainsi de chercher des alternatifs qui peuvent présenter une meilleure
           protection pour les utilisateurs.{" "}
         </p>
-        <p>
+        <p className="py-2">
           D’abord, on trouve maints problèmes techniques dans ce sujet présentés
           par les scandales rapportés dans la mauvaise exploitation des données
           personnelles ou la violation de la vie privée des citoyens.
         </p>
-        <p>
+        <p className="py-2">
           A cet égard, on peut citer, En 2018, le cas de l’Enquête sur
           l’indicateur et l’impact du VIH/sida au Nigeria, l’une des plus
           grandes enquêtes sur le VIH au monde, risquait de révéler des détails
@@ -34,7 +36,7 @@ export const data = {
           ouvert. Selon Oloyede, l’enquête a été stockée dans une base de
           données qui n’était pas correctement sécurisée.
         </p>
-        <p>
+        <p className="py-2">
           Et dans la même mesure Simons Bright ajoute :« Les registres de vote
           biométriques sont un parfait exemple de la vulnérabilité des données
           personnelles des Africains : des milliers d’employés et de nombreux
@@ -43,67 +45,68 @@ export const data = {
           pas traitées sérieusement par les autorités de protection des données.
           »
         </p>
-        <p>
+        <p className="py-2">
           Au niveau local, on peut voir d’autres exemples cités dans les
           journaux de : Al Massae, BBC Arabia, Assabah,
         </p>
-        <p>
+        <p className="py-2 pl-3">
           - L’enquête de BBC Arabia et Dagbladet, un journal Danois, a révélé
           que la firme de défense Britannique BAE Systems avait vendu des
           technologies de surveillance au gouvernement Marocain.
         </p>
-        <p>
-          Bull Amesys a vendu le système de surveillance « Eagle » au
+        <p className="py-2 pl-3">
+          - Bull Amesys a vendu le système de surveillance « Eagle » au
           gouvernement marocain pour la surveillance du trafic Internet.
         </p>
-        <p>
-          Les fuites des équipes de piratage ont montré que les deux agences de
-          renseignement marocaines (CSDN) et (DST) ont tous deux acheté un
+        <p className="py-2 pl-3">
+          - Les fuites des équipes de piratage ont montré que les deux agences
+          de renseignement marocaines (CSDN) et (DST) ont tous deux acheté un
           logiciel malveillant d’intrusion du système de contrôle à distance.{" "}
         </p>
-        <p>
-          Les scandales sur le niveau international sont innombrables, mais on
+        <p className="py-2 pl-3">
+          - Les scandales sur le niveau international sont innombrables, mais on
           ne peut pas parler des scandales dans l’exploitation des données
           personnelles sans parler de l’affaire de l’entreprise Facebook et
           Cambridge Analytica dans les élections de Trump ou dans le Brexit.
         </p>
-        <p>
-          Cambridge Analytica : une société de publication stratégique combinant
-          les outils d’exploration et d’analyse des données. Une société de
-          publication stratégique combinat les outils d’exploration et d’analyse
-          des données.
+        <p className="py-2 pl-3">
+          - Cambridge Analytica : une société de publication stratégique
+          combinant les outils d’exploration et d’analyse des données. Une
+          société de publication stratégique combinat les outils d’exploration
+          et d’analyse des données.
         </p>
-        <p>
-          Ici, Carole Cadwalladr a publié dans ‘The Guardian’ un article
-          intitulé ‘50 million Facebook profiles harvested for Cambridge
-          Analytica in major data breach ’ où elle déclare que : La société
-          d’analyse de données qui a travaillé avec l’équipe électorale de
-          Donald Trump et la campagne gagnante du Brexit a récolté des millions
-          de profils Facebook d’électeurs américains. (parle de Cambridge
-          Analytica ) et explique la raison de cette exploitation des données :
-          “ les informations personnelles utilisées prises sans autorisation
-          début 2014 pour construire un système qui pourrait profiler les
-          électeurs américains individuels, afin de les cibler avec des
-          publicités politiques personnalisées". Cependant, elle ajoute que : “
-          la « politique de plateforme » de Facebook ne permettait que la
-          collecte de données d’amis pour améliorer l’expérience utilisateur
-          dans l’application et l’a interdite de vente ou d’utilisation pour la
-          publicité". D'autres part, Facebook exprime son positionnement via son
-          vice-président Paul Grewal qui a déclaré que : « Nous sommes
-          déterminés à appliquer vigoureusement nos politiques de protection des
-          renseignements personnels. Nous prendrons toutes les mesures
-          nécessaires pour que cela se produise »
+        <p className="py-2">
+          Ici, <span className="font-bold">Carole Cadwalladr</span> a publié
+          dans ‘The Guardian’ un article intitulé{" "}
+          <span className="font-medium text-black">
+            ‘50 million Facebook profiles harvested for Cambridge Analytica in
+            major data breach ’{" "}
+          </span>
+          où elle déclare que : La société d’analyse de données qui a travaillé
+          avec l’équipe électorale de Donald Trump et la campagne gagnante du
+          Brexit a récolté des millions de profils Facebook d’électeurs
+          américains. (parle de Cambridge Analytica ) et explique la raison de
+          cette exploitation des données : “ les informations personnelles
+          utilisées prises sans autorisation début 2014 pour construire un
+          système qui pourrait profiler les électeurs américains individuels,
+          afin de les cibler avec des publicités politiques personnalisées".
+          Cependant, elle ajoute que : “ la « politique de plateforme » de
+          Facebook ne permettait que la collecte de données d’amis pour
+          améliorer l’expérience utilisateur dans l’application et l’a interdite
+          de vente ou d’utilisation pour la publicité". D'autres part, Facebook
+          exprime son positionnement via son vice-président Paul Grewal qui a
+          déclaré que : « Nous sommes déterminés à appliquer vigoureusement nos
+          politiques de protection des renseignements personnels. Nous prendrons
+          toutes les mesures nécessaires pour que cela se produise »
         </p>
-        <p>
+        <p className="py-2">
           Sur notre chemin d’exploration des scandales causés par les outils de
           communication nous avons trouvé aussi une affaire de l’application
           Grindr .
         </p>
-        <p>
-          Grindr est une application de rencontres destinée aux hommes
-          homosexuels, bisexuels ou bicurieux
-        </p>
-        <p>
+        <p className="py-2">
+          <span className="font-bold">Grindr</span> est une application de
+          rencontres destinée aux hommes homosexuels, bisexuels ou bicurieux ,
           Grindr qualifié comme le plus grand réseau de rencontre des personnes
           homosexuelles est accusée d’avoir révélé des données sensibles de plus
           de 50 millions d’abonnés, il s’agit du statut VIH une donnée très
@@ -122,14 +125,14 @@ export const data = {
           informations sensibles comme celles-ci peuvent mettre les Américains
           LGBT en danger".
         </p>
-        <p>
+        <p className="py-2">
           Une telle affaire pousse les utilisateurs de cette plateforme de se
           demander : Est-ce que les entreprises respectent vraiment les règles
           d’utilisation de données ? Ou est-ce que cette utilisation se
           restreint vraiment sur l’amélioration de l’expérience de
           l’utilisateur ?{" "}
         </p>
-        <p>
+        <p className="py-2">
           Enfin, malgré le développement permanent des outils et des techniques
           de communication on risque toujours de trouver des failles dans ces
           outils, et à l’instar, dernièrement et dans un bulletin de sécurité
@@ -149,7 +152,7 @@ export const data = {
           documents qui étaient partagés, tout au long de la réunion, entre les
           participants.”{" "}
         </p>
-        <p>
+        <p className="py-2">
           D’autre part, les entreprises restent responsables de ces failles et
           scandales, alors elles se trouvent sollicitées par les institutions
           qui contrôlent le domaine de l’information ou celles des droits de
@@ -158,7 +161,7 @@ export const data = {
           l’exploitation des données de leurs clients doivent respecter les
           normes exigées par certaines intuitions.{" "}
         </p>
-        <p>
+        <p className="py-2">
           Une des techniques largement utilisée par quelques parties prenantes
           est le Privacy by Design. Cette pratique implique de protéger les
           données personnelles dès la conception. Cela signifie que les
@@ -174,7 +177,7 @@ export const data = {
           organisationnel, de manière à traiter ces informations personnelles de
           manière appropriée.
         </p>
-        <p>
+        <p className="py-2">
           Pendant les dernières années, plusieurs innovations ont émergé. Du
           Blockchain au Holochain, ces technologies ont toutes les deux pour but
           de décentraliser l’internet vers le P2P (peer to peer) et garantir la
@@ -192,19 +195,19 @@ export const data = {
           données est un sujet de recherche qui aboutira surement dans la
           décennie suivante.{" "}
         </p>
-        <p>
+        <p className="py-2">
           Après avoir parlé des failles qu’on trouve dans les outils et
           solutions fréquemment utilisées. Il nous reste de chercher des
           alternatives qui vont assurer une protection plus solide.{" "}
         </p>
-        <p>
+        <p className="py-2">
           Et parmi ces solutions il y a Duckduckgo : le fabricant de moteur de
           recherche et de la technologie de navigateur qui garantit votre
           anonymité, partage des données qu’il est recueilli sur les trackers en
           ligne avec d’autres entreprises afin qu’elles puissent également
           protéger votre vie privée.{" "}
         </p>
-        <p>
+        <p className="py-2">
           Il existe aussi, Wire qui offre des garanties physiques, électroniques
           et procédurales pour protéger vos renseignements. Wire utilise le
           chiffrement de bout en bout pour tous les messages, médias et appels
@@ -219,7 +222,7 @@ export const data = {
       "Les procédures législatives actuelles assurent-elles une protection des données personnelles ?",
     content: (
       <div>
-        <p>
+        <p className="py-2">
           Tout au long de l'histoire la notion de la vie privée a refait surface
           à maintes reprises. Alors que le mot est resté le même, sa
           signification n'a cessé d'évoluer. Il n’existe pas de définition
@@ -229,7 +232,7 @@ export const data = {
           comme les données sur la vie familiale, la situation financière, état
           de santé, convictions politiques ou religieuses, vie sexuelle etc…{" "}
         </p>
-        <p>
+        <p className="py-2">
           Le concept de la vie privée, évoqué dès l’Antiquité, témoigne d’une
           forte omniprésence depuis plusieurs certaines années, dans différentes
           textes de loi, qui ont été conçues pour protéger l’intimité des
@@ -244,14 +247,14 @@ export const data = {
           lignes peuvent dans certains cas affronter des violations de leurs
           données personnelles. En revenant au cadre législatif, plusieurs
           questions se posent sur l’efficacité des lois sur la protection des
-          données à caractère personnelles:
+          données à caractère personnelles: Les procédures législatives
+          actuelles assurent-elles une protection des données personnelles ?
         </p>
-        <p>
-          Les procédures législatives actuelles assurent-elles une protection
-          des données personnelles ?
+        <p className="py-2 pl-3 font-bold text-xl">
+          {" "}
+          "Le paquet européen" sur la protection des données :
         </p>
-        <p>I. "Le paquet européen" sur la protection des données :</p>
-        <p>
+        <p className="py-2">
           La législation de l’Union européenne en matière de protection des
           données a longtemps été considérée comme une référence dans le monde
           entier. Le droit de la protection des données personnelles n’est pas
@@ -275,42 +278,63 @@ export const data = {
           progrès pour les citoyens, sans atteinte à leur liberté ni à leur vie
           privée.
         </p>
-        <p>1- Une évolution en matière de droits des personnes concernées :</p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
+          {" "}
+          Une évolution en matière de droits des personnes concernées :
+        </p>
+        <p className="py-2">
           Le RGPD introduit de nouveaux droits et rectifient d’autres anciennes
           afin de garantir une protection des données personnelles des
           individus. Il s’agit de :
         </p>
         <div>
-          <p> - le droit d’être informé : </p>
-          <p> - Le droit d'accès aux données : </p>
-          <p> - Le droit de rectification :</p>
-          <p> - Le droit d’opposition :</p>
-          <p> - Le droit à l'effacement :</p>
-          <p> - Droit à la limitation du traitement :</p>
-          <p> - Le droit à la portabilité des données :</p>
-          <p> -Le droit au refus du profilage ou de décisions automatisées :</p>
+          <p className="px-3"> - le droit d’être informé : </p>
+          <p className="px-3"> - Le droit d'accès aux données : </p>
+          <p className="px-3"> > - Le droit de rectification :</p>
+          <p className="px-3"> - Le droit d’opposition :</p>
+          <p className="px-3"> - Le droit à l'effacement :</p>
+          <p className="px-3"> - Droit à la limitation du traitement :</p>
+          <p className="px-3"> - Le droit à la portabilité des données :</p>
+          <p className="px-3">
+            {" "}
+            - Le droit au refus du profilage ou de décisions automatisées :
+          </p>
         </div>
-        <p>
-          2- Une évolution d’obligation pour les responsables de traitement :
+        <p className="py-2 pl-3 font-bold text-xl">
+          Une évolution d’obligation pour les responsables de traitement :
         </p>
-        <p>
+        <p className="py-2">
           Parmi obligations imposées par Le RGPD sur les responsables de
           traitements des données :{" "}
         </p>
         <div>
-          • Registre des activités de traitement (article 30) : • l’analyse
-          d’impact (article 35): • Protection des données dès la conception
-          «Privacy by design» (article 25) : • Protection des données par défaut
-          «Privacy by default» (article 25) : • Désignation d’un délégué à la
-          protection des données : 3- Un consentement « objective » : 4-
-          Alourdissement des sanctions :
+          <p className="px-3">
+            {" "}
+            • Registre des activités de traitement (article 30) :{" "}
+          </p>
+          <p className="px-3"> • l’analyse d’impact (article 35): </p>
+          <p className="px-3">
+            {" "}
+            • Protection des données dès la conception «Privacy by design»
+            (article 25) :
+          </p>
+          <p className="px-3">
+            {" "}
+            • Protection des données par défaut «Privacy by default» (article
+            25) :{" "}
+          </p>
+          <p className="px-3">
+            {" "}
+            • Désignation d’un délégué à la protection des données :{" "}
+          </p>
+          <p className="px-3"> • Un consentement « objective » : </p>
+          <p className="px-3"> • Alourdissement des sanctions :</p>
         </div>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
           Le RGPD consiste seulement à réguler l’utilisation des données
           personnelles :
         </p>
-        <p>
+        <p className="py-2">
           {" "}
           Richard Stallman (un programmeur et militant du logiciel libre)
           critique le Règlement Général de Protection des Données. En réagissant
@@ -324,7 +348,7 @@ export const data = {
           RGPD), je propose une loi qui interdirait aux systèmes de collecter
           les données personnelles.»{" "}
         </p>
-        <p>
+        <p className="py-2">
           Pour aboutir à ce résultat il recommande de construire des systèmes de
           façon à remplir ses fonctionnalités principales sans collecter les
           données. Stallman donne l’exemple d’une collecte illégitime faite par
@@ -335,11 +359,11 @@ export const data = {
           carte d’une manière à garantir l’anonymat de l’individu. Le RGPD
           n’empêche pas ce type de collecte.
         </p>
-        <p>
+        <p className="py-2">
           Le principe de protection par défaut du RGPD (privacy by default) est
           mis en question :{" "}
         </p>
-        <p>
+        <p className="py-2">
           La protection par défaut du RGPD dit que le droit de collecter des
           données par un système est conditionné par le fait de justifier si ces
           données sont strictement nécessaires à l’accomplissement de ses
@@ -348,24 +372,24 @@ export const data = {
           collecter les données via les cartes magnétiques parce qu’il existe un
           moyen à le faire tout en gardant l’anonymat des utilisateurs ?
         </p>
-        <p>
+        <p className="py-2">
           Le RGPD dit qu’un traitement réalisé sans finalité précise est
           illicite, alors que Stallman propose que la finalité d’un traitement
           soit en elle-même déclarée illicite s’il y a moyen de faire
           fonctionner un système sans collecter de données personnelles, ce qui
           n’est pas la même chose.
         </p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
           Les organisations et les entreprises peuvent facilement s’échapper du
           RGPD :{" "}
         </p>
-        <p>
+        <p className="py-2">
           Le RGPD accorde la permission aux organisations et entreprises de
           collecter les données dès qu’ils sont utiles et nécessaires pour leurs
           fonctionnements tandis qu’elles peuvent facilement justifier l’utilité
           de la collecte{" "}
         </p>
-        <p>
+        <p className="py-2">
           « Les nouvelles règles du RGPD partent d’une bonne intention, mais
           elles ne vont pas assez loin. Elles n’apporteront pas un bénéfice
           significatif en termes de protection de la vie privée, car elles
@@ -374,8 +398,10 @@ export const data = {
           toujours facile de justifier qu’une donnée est utile à quelque chose.»
           Richard Stallman
         </p>
-        <p>Une conception « subjectiviste » du consentement: </p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
+          Une conception « subjectiviste » du consentement:{" "}
+        </p>
+        <p className="py-2">
           Le RGPD exige très souvent que les utilisateurs donnent leur
           consentement pour la collecte de leurs données. Il parait une très
           bonne chose, mais Stallman regrette que cela ne fasse pas grand-chose.
@@ -387,7 +413,7 @@ export const data = {
           conditions imposées, car refuser de donner leur consentement leur
           causerait un tort trop important.»
         </p>
-        <p>
+        <p className="py-2">
           Parfois quand la personne exprime son opposition pour la collecte de
           ses données personnelles cela peut engendrer une privation de certains
           services, ce phénomène s’intitule le « chantage au service » qui reste
@@ -396,18 +422,20 @@ export const data = {
           leurs conditions d’utilisation ou de renoncer au service qu’elles
           proposent.
         </p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
           Le RGPD est trop contraignant et risque de renforcer le pouvoir des
           GAFAM:
         </p>
-        <p>
+
+        <p className="py-2">
           Pierre Calmar a annoncé sur son compte LinkedIn : ‘J’ose le dire. Le
           RGPD a des vertus, certes. Mais résultant d’une action politique
           destinée à plaire aux peuples d’un côté, et à certains lobbys de
           l’autre, il engendre une réalité consternante : ruineux, destructeur,
           et sublimant le pouvoir des GAFA.
         </p>
-        <p>
+
+        <p className="py-2">
           L’union européenne tente depuis longtemps à mettre en œuvre des lois
           permettant la protection des données personnelles, mais en réalité la
           raison derrière est l’immense business réalisé sur les données
@@ -415,7 +443,8 @@ export const data = {
           partie à la fiscalité des principaux pays européens. Et d’un autre
           coté ça permet de regagner de la légitimité auprès des citoyens.
         </p>
-        <p>
+
+        <p className="py-2">
           Le RGPD impose beaucoup de contrainte sur les entreprises de toutes
           tailles comme les lourdes sanctions, les obligations laxistes. La
           nature impraticable et laborieuse de ces processus constitue un
@@ -431,11 +460,11 @@ export const data = {
           ses données personnelles sera plus fort s’il bénéficie des services en
           lignes « gratuits » de la part de ces géants du web.
         </p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
           Un manque des lois sur la protection des données personnelles à
           l’échelle africain :
         </p>
-        <p>
+        <p className="py-2">
           Orientant l’angle vers l’Afrique, Seuls 24 pays Africains parmi 53
           adoptent des lois de protection de données, le nombre est lentement en
           augmentation. Dans ce contexte Bright Simons affirme que les données
@@ -444,7 +473,7 @@ export const data = {
           Africain à cause du manque de mécanismes de protection des données
           dans les pays de sud.{" "}
         </p>
-        <p>
+        <p className="py-2">
           Même si certains d’eux possèdent des lois mais cela n’empêche qu’il
           existe des failles, citons par exemple le cas du Maroc, La loi 09-08
           régissant le travail du CNDP similaire à la loi française de 1978 sur
@@ -465,7 +494,7 @@ export const data = {
       "Le gouvernement doit-il décider la collection et l'usage des données personnelles ?",
     content: (
       <div>
-        <p>
+        <p className="py-2">
           Compte tenu de l'autorité et le champs d'actions du gouvernement via
           ces entités ce dernier peut y accéder à des bases volumineux de
           données à caractère personnelles traité et utilisé sous le couvert de
@@ -481,19 +510,23 @@ export const data = {
           privée des individus , tout en listant les réactions des acteurs
           externe tel les ONG ,media et autres .
         </p>
-        <p>CNDP : protection de données limitée ?</p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
+          CNDP : protection de données limitée ?
+        </p>
+        <p className="py-2">
           La CNDP représente l'entité nationale responsable à la protection des
           données à caractère personnel en s'appuient sur des textes
           législatives : la loi 09 comme exemple qui se base sur les principes
           suivants :
         </p>
-        <p>
+        <p className="px-3">
           - consensus entre le propriétaire des donnes et le fournisseur de
           services
         </p>
-        <p>- la conformité du traitement des données à la loi</p>
-        <p>
+        <p className="px-3">
+          - la conformité du traitement des données à la loi
+        </p>
+        <p className="py-2">
           Sur ces principes la comité a le droit de mener des enquêtes et des
           inspections afin de vérifier et détecter toute violation de la loi de
           protection. Cependant plusieurs acteurs affirme que ces actions
@@ -501,8 +534,10 @@ export const data = {
           de ce traitement. Pour cela on essaye de lister et investiguer ces
           propos .
         </p>
-        <p>Article de loi favorisant l'état :</p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
+          Article de loi favorisant l'état :
+        </p>
+        <p className="py-2">
           en 2015 , 14 NGO - on cite parmi eux : l’Association Marocaine des
           Droits Humains, Comité des Droits de l’Homme et autres - ont adressé
           un rapport[1] à la Comité des droits de l'homme des Nations Unies afin
@@ -512,7 +547,7 @@ export const data = {
           administrations étatiques utilisant des outils de traitements des
           données personnelles.
         </p>
-        <p>
+        <p className="py-2">
           de plus une simple lecture des article de la loi 09 l'équivalent de la
           RGPD dans l'UE nous montre bien que les législations élimine l'État de
           tout inspection .En effet, en examinant l'article 44 de cette loi , on
@@ -524,8 +559,10 @@ export const data = {
           causes qui protège L'état et son traitement des données de tout
           inspection ou questionnement .
         </p>
-        <p>identification : outil d'accès au données personelles</p>
-        <p>
+        <p className="py-2 pl-3 font-bold text-xl">
+          identification : outil d'accès au données personelles
+        </p>
+        <p className="py-2">
           dans le cadre de la digitalisation le royaume marocain a réalisé des
           changements radicale favorisant le numérique ,Citant le domaine
           d'identification ou L'état a adopté depuis 2008 un nouveau système
@@ -535,13 +572,14 @@ export const data = {
           de données personnelles dont on ne connaît a ce moment les
           circonstances de traitement ou utilisation .
         </p>
-        <p>
+        <p className="py-2">
           Encore une fois la CNDP élimine L'état de son champ d'autorité ,en
-          effet ,en 2013 elle a publié une série de recommandations[2] vis-à-vis
-          l'utilisation des données biométriques par les tiers sans aucune
-          indication au base de données biométriques nationales . Cette derniere
-          hébergée chez une agence privée : Gelmato qui est connu par ces graves
-          vulnérabilités[3].
+          effet ,en 2013 elle a publié{" "}
+          <span className="font-bold"> une série de recommandations</span>{" "}
+          vis-à-vis l'utilisation des données biométriques par les tiers sans
+          aucune indication au base de données biométriques nationales . Cette
+          derniere hébergée chez une agence privée : Gelmato qui est connu par
+          ces graves vulnérabilités.
         </p>
       </div>
     )
@@ -551,7 +589,7 @@ export const data = {
       " Sachant que la collecte et le stockage de plusieurs types données, y compris les données à caractère personnel, sont assurés par des prestataires de services, dans des conditions qualifiées souvent de moins transparentes, le transfert de ces données, à ce stade, vers des tierces entités, parfois même sans la conscience ou le consentement des personnes concernées, doit-il encore être autorisé, sinon dans quelles conditions supplémentaires ? ",
     content: (
       <>
-        <p>
+        <p className="py-2">
           En analysant le cycle de vie des données à caractère personnel, nous
           remarquons que, souvent, ce sont des prestataires de services qui se
           chargent de la collecte et du stockage de ce type de données. Les
@@ -572,7 +610,7 @@ export const data = {
           sécurité de leurs données, et de savoir de si elles sont transférées à
           l’étranger.
         </p>
-        <p>
+        <p className="py-2">
           A la base de l’exemple du Cloud, nous identifions une question
           importante qui se pose dans le contexte de la gestion du stockage des
           données par les prestataires de services et la possibilité de leur
@@ -585,7 +623,7 @@ export const data = {
           concernées, doit-il encore être autorisé, sinon dans quelles
           conditions supplémentaires ?
         </p>
-        <p>
+        <p className="py-2">
           Fixons tout d’abord, le cadre et les notions du traitement de cette
           problématique. Un responsable de traitement est celui « qui détermine
           les finalités et les moyens d’un traitement » (article 4 du règlement
@@ -594,7 +632,7 @@ export const data = {
           sous-traitant au sens juridique du terme. Il est important de
           souligner que :
         </p>
-        <p>
+        <p className="py-2 pl-2">
           - Un organisme sous-traitant, est généralement responsable de
           traitement pour les traitements qu’il réalise pour son propre compte,
           et non pour des clients. Un sous-traitant peut se charger d’une
@@ -603,37 +641,37 @@ export const data = {
           compte d’un autre organisme (gestion de la paie des salariés par
           exemple).
         </p>
-        <p>
+        <p className="py-2 pl-2">
           - Lorsqu’un organisme détermine la finalité et les moyens d’un
           traitement, il ne peut pas être qualifié de sous-traitant : il est
           considéré comme étant un responsable de ce traitement (article 28.10
           du règlement européen).
         </p>
-        <p>
+        <p className="py-2">
           Nous considérons, dans ce volet de la controverse, un sous-traitant
           comme tout organisme offrant un service ou une prestation impliquant
           un traitement de données à caractère personnel pour le compte d’un
           autre organisme. Par exemple, ceux qui sont notamment concernés par le
           règlement européen :
         </p>
-        <p>
+        <p className="py-2 pl-2">
           - Les prestataires des services informatiques (hébergement,
           maintenance par exemple), les intégrateurs de logiciels, les sociétés
           de sécurité informatique, les entreprises de service du numérique qui
           ont accès aux données.
         </p>
-        <p>
+        <p className="py-2 pl-2">
           - Les agences de marketing ou de communication qui traitent des
           données personnelles pour le compte de clients.
         </p>
-        <p>
+        <p className="py-2 ">
           En réponse à cette question, le transfert des données à caractère
           personnel collectées, depuis les prestataires de services vers des
           tierces entités est souvent interprété telle une stratégie mise en
           œuvre au service des personnes concernées par ces données, et non pas
           une menace pour leur vie privée.
         </p>
-        <p>
+        <p className="py-2 ">
           - L’autorisation de ce transfert contribue à la personnalisation et
           l’amélioration de l’expérience utilisateur pour les personnes
           concernées. En effet, les données collectées par les prestataires de
@@ -646,7 +684,7 @@ export const data = {
           différenciation et l’adaptation de leurs offres selon les profiles
           établis de leurs consommateurs.
         </p>
-        <p>
+        <p className="py-2 ">
           Dans cette même vision, COHERIS, un éditeur français de logiciels de
           la relation client, de gestion, analytique et d’analyse prédictive,
           explique dans leur article « Comment le Data Mining permet-il
@@ -657,7 +695,7 @@ export const data = {
           informations les plus pertinentes afin de proposer le service ou le
           produit le plus adapté pour chaque client. »
         </p>
-        <p>
+        <p className="py-2 ">
           Experian, un exemple des Data Brokers, avance également qu’il soutient
           pleinement la tendance vers une plus grande transparence. « Notre
           stratégie entreprise vise à placer nos clients au cœur de tout ce que
@@ -668,13 +706,13 @@ export const data = {
           collecte de données qui alimentent notre entreprise étaient conformes
           à ces exigences avant la date limite du 25 Mai 2018. »
         </p>
-        <p>
-           De plus, le stockage, le traitement et le transfert de ces données
+        <p className="py-2 ">
+          De plus, le stockage, le traitement et le transfert de ces données
           restent encadrés par des régulations qui exigent l’emploi de solutions
           techniques assurant le respect des mesures de sécurité des données et
           de la protection de la vie privée des personnes concernées.
         </p>
-        <p>
+        <p className="py-2 ">
           Dans le cadre du règlement Européen, quand un organisme intervient en
           tant que sous-traitant dans la mise en œuvre d’un traitement de
           données personnelles, il doit offrir à ses clients « des garanties
@@ -684,7 +722,7 @@ export const data = {
           protection des droits de la personne concernée » (article 28 du
           règlement européen).
         </p>
-        <p>
+        <p className="py-2 ">
           L’ANRT s’assure également que les équipements mis à disposition par
           les opérateurs répondent aux normes de sécurité. Elle s’assure que les
           opérateurs de télécommunicatons et prestataires de services respectent
@@ -692,7 +730,7 @@ export const data = {
           protection de la vie privée et des données personnelles des
           utilisateurs.
         </p>
-        <p>
+        <p className="py-2 ">
           Dans un cadre marocain, et sous la présidence conjointe du Président
           de la CNDP et du Directeur Général de l’ANRT, une réunion de travail a
           été tenue au siège de la CNDP, le 23 Avril 2019, avec les
@@ -709,8 +747,8 @@ export const data = {
           comportent une indication sur le moyen mis à disposition du client
           pour ne pas en recevoir.
         </p>
-        <p>
-           Dans le même contexte, l’autorisation d’un tel transfert restera
+        <p className="py-2 ">
+          Dans le même contexte, l’autorisation d’un tel transfert restera
           possible en adoptant et en développant des modèles et systèmes
           techniques de collecte et de stockage de données personnelles,
           assurant un accès également pour les éditeurs et les personnes
@@ -718,7 +756,7 @@ export const data = {
           contrôler et suivre l’usage et le transfert de leurs données
           personnelles.
         </p>
-        <p>
+        <p className="py-2 ">
           Dans le cadre de nos interviews, Monsieur Raymond Onuoha propose «
           d’adopter de nouveaux modèles centrés sur l’utilisateur pour la
           gestion des données personnelles afin de permettre aux individus de
@@ -736,14 +774,14 @@ export const data = {
           indépendant, qui rendra obligatoire la divulgation de certaines
           données dans les conditions spécifiées dans la loi ».{" "}
         </p>
-        <p>
+        <p className="py-2 ">
           Toutefois, vu le manque de transparence concernant la nature, les
           modalités et les finalités du transfert des données personnelles
           stockées chez des prestataires de services, il reste possible de
           remettre en cause l’autorisation de ce transfert.
         </p>
-        <p>
-          - D’une part, l’emploi des données transférées dépassent la
+        <p className="py-2 ">
+          D’une part, l’emploi des données transférées dépassent la
           personnalisation et l’amélioration des offres. En effet, les finalités
           de l’achat de ces données par des entreprises ou des entités de
           services, sont souvent orientés vers des objectifs de prospection, de
@@ -752,7 +790,7 @@ export const data = {
           fins moins explicites, en exposant la vie privée de ces personnes à
           des menaces et violations importantes.
         </p>
-        <p>
+        <p className="py-2 ">
           En traitant la problématique des données collectées par les GAFA,
           Mallorie Wozny explique dans son mémoire de master, sous la direction
           de Clément Oury Responsable Données, Réseau et Standards à ISSN
@@ -770,26 +808,26 @@ export const data = {
           donner une information que de la punition infligée par le site suite à
           ce refus. »
         </p>
-        <p>
-          - De plus, il est important de revoir l’autorisation d’un tel
-          transfert, surtout, que souvent les techniques de protection des
-          données personnelles, et les technologies employées pour détecter et
-          régler les violations de ces données, peuvent être moins développées
-          pour s’adapter aux menaces continuellement renouvelées et améliorées
-          sur le plan technique.
+        <p className="py-2 ">
+          De plus, il est important de revoir l’autorisation d’un tel transfert,
+          surtout, que souvent les techniques de protection des données
+          personnelles, et les technologies employées pour détecter et régler
+          les violations de ces données, peuvent être moins développées pour
+          s’adapter aux menaces continuellement renouvelées et améliorées sur le
+          plan technique.
         </p>
-        <p>
-          Dans ce contexte, Simons Bright, un entrepreneur, avocat et innovateur
-          social, avance dans son article « 2020 is a crucial year to fight for
-          data protection in Africa » sur le site de Privacy International, que
-          « les systèmes biométriques de vote constituent l’exemple parfait de
-          la vulnérabilité des données personnelles des africains : Milliers
-          d’employés et plusieurs bureaux peuvent accéder aux bases de données,
-          la cybersécurité est souvent faible, les atteintes à la vie privée ne
-          sont pas souvent prises au sérieux par les autorités de protection des
-          données ».
+        <p className="py-2 ">
+          Dans ce contexte, <span className="font-bold">Simons Bright</span>, un
+          entrepreneur, avocat et innovateur social, avance dans son article «
+          2020 is a crucial year to fight for data protection in Africa » sur le
+          site de Privacy International, que « les systèmes biométriques de vote
+          constituent l’exemple parfait de la vulnérabilité des données
+          personnelles des africains : Milliers d’employés et plusieurs bureaux
+          peuvent accéder aux bases de données, la cybersécurité est souvent
+          faible, les atteintes à la vie privée ne sont pas souvent prises au
+          sérieux par les autorités de protection des données ».
         </p>
-        <p>
+        <p className="py-2 ">
           Dans le même cadre, DuckDuckGo, le fabricant de moteurs de recherche
           et de technologies de navigateur qui ne suit pas ses utilisateurs en
           ligne, a décidé de partager les données collectées sur les trackers en
