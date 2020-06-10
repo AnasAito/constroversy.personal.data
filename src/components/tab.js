@@ -1,8 +1,12 @@
 import React from "react";
 //import actors_t from "../views/Landing/assets/actors_t.png";
 //import args_t from "../views/Landing/assets/args_t.png";
-import actors_te from "../views/Landing/assets/actors_te.jpeg";
-import args_te from "../views/Landing/assets/args_te.jpeg";
+//import actors_te from "../views/Landing/assets/actors_te.jpeg";
+//import args_te from "../views/Landing/assets/args_te.jpeg";
+import actors_te from "../views/Landing/assets/actors_tech2.jpeg";
+import args_te from "../views/Landing/assets/args_tech.jpeg";
+import actors_le from "../views/Landing/assets/actors_legi2.jpeg";
+import args_le from "../views/Landing/assets/args_legi2.jpeg";
 import Nav from "./nav";
 import {
   ReactCompareSlider,
@@ -75,12 +79,27 @@ export default function Tab({ color }) {
                         </span>
                       </div>
                     }
-                    itemOne={<ReactCompareSliderImage src={actors_te} />}
-                    itemTwo={<ReactCompareSliderImage src={args_te} />}
+                    itemTwo={<ReactCompareSliderImage src={actors_te} />}
+                    itemOne={<ReactCompareSliderImage src={args_te} />}
                   />
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link3">
-                  <p>Protection legislative des données personnelles</p>
+                  <h2 className="text-2xl text-center font-bold text-black">
+                    Les procédures législatives actuelles assurent-elles une
+                    protection des données personnelles ?
+                  </h2>
+                  <Nav />
+                  <ReactCompareSlider
+                    handle={
+                      <div className="flex ">
+                        <span className="bg-gray-400 m-3 rounded-full  px-4 ">
+                          Slide It
+                        </span>
+                      </div>
+                    }
+                    itemTwo={<ReactCompareSliderImage src={actors_le} />}
+                    itemOne={<ReactCompareSliderImage src={args_le} />}
+                  />
                 </div>
               </div>
             </div>
