@@ -1,5 +1,6 @@
 import React from "react";
-
+import Modled from "./modled";
+import Modled2 from "./modled2";
 export const data = {
   tech: {
     title:
@@ -241,14 +242,16 @@ export const data = {
           devenues la matière première produite par tous appareils connectés
           (Pc, Smartphone,…). Les producteurs sont les millions d’utilisateurs
           de services en ligne gratuits qui, en échange, livrent quotidiennement
-          des informations aux géants du Web GAFAM (Google Apple Facebook Amazon
-          Microsoft) ou bien à des parties tiers, parfois sans même se rendre
-          compte. A cause d’un mal traitement, les utilisateurs des services en
-          lignes peuvent dans certains cas affronter des violations de leurs
-          données personnelles. En revenant au cadre législatif, plusieurs
-          questions se posent sur l’efficacité des lois sur la protection des
-          données à caractère personnelles: Les procédures législatives
-          actuelles assurent-elles une protection des données personnelles ?
+          des informations aux géants du Web{" "}
+          <span className="font-medium">GAFAM </span>(Google Apple Facebook
+          Amazon Microsoft) ou bien à des parties tiers, parfois sans même se
+          rendre compte. A cause d’un mal traitement, les utilisateurs des
+          services en lignes peuvent dans certains cas affronter des violations
+          de leurs données personnelles. En revenant au cadre législatif,
+          plusieurs questions se posent sur l’efficacité des lois sur la
+          protection des données à caractère personnelles: Les procédures
+          législatives actuelles assurent-elles une protection des données
+          personnelles ?
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
           {" "}
@@ -287,19 +290,7 @@ export const data = {
           afin de garantir une protection des données personnelles des
           individus. Il s’agit de :
         </p>
-        <div>
-          <p className="px-3"> - le droit d’être informé : </p>
-          <p className="px-3"> - Le droit d'accès aux données : </p>
-          <p className="px-3"> > - Le droit de rectification :</p>
-          <p className="px-3"> - Le droit d’opposition :</p>
-          <p className="px-3"> - Le droit à l'effacement :</p>
-          <p className="px-3"> - Droit à la limitation du traitement :</p>
-          <p className="px-3"> - Le droit à la portabilité des données :</p>
-          <p className="px-3">
-            {" "}
-            - Le droit au refus du profilage ou de décisions automatisées :
-          </p>
-        </div>
+        <Modled />
         <p className="py-2 pl-3 font-bold text-xl">
           Une évolution d’obligation pour les responsables de traitement :
         </p>
@@ -307,29 +298,7 @@ export const data = {
           Parmi obligations imposées par Le RGPD sur les responsables de
           traitements des données :{" "}
         </p>
-        <div>
-          <p className="px-3">
-            {" "}
-            • Registre des activités de traitement (article 30) :{" "}
-          </p>
-          <p className="px-3"> • l’analyse d’impact (article 35): </p>
-          <p className="px-3">
-            {" "}
-            • Protection des données dès la conception «Privacy by design»
-            (article 25) :
-          </p>
-          <p className="px-3">
-            {" "}
-            • Protection des données par défaut «Privacy by default» (article
-            25) :{" "}
-          </p>
-          <p className="px-3">
-            {" "}
-            • Désignation d’un délégué à la protection des données :{" "}
-          </p>
-          <p className="px-3"> • Un consentement « objective » : </p>
-          <p className="px-3"> • Alourdissement des sanctions :</p>
-        </div>
+        <Modled2 />
         <p className="py-2 pl-3 font-bold text-xl">
           Le RGPD consiste seulement à réguler l’utilisation des données
           personnelles :
@@ -342,11 +311,14 @@ export const data = {
           ne pas aller assez loin, et qu’il il permet juste une protection
           superficielle en régulant simplement l’usage des données. Selon lui,
           il faut interdire de la collecte des informations relatives aux
-          individus « C’est pourquoi, au lieu de l’approche européenne qui
-          consiste seulement à réguler comment les données personnelles peuvent
-          être utilisées (avec le Règlement Général de Protection des Données ou
-          RGPD), je propose une loi qui interdirait aux systèmes de collecter
-          les données personnelles.»{" "}
+          individus{" "}
+          <span className="font-medium text-gray-500">
+            « C’est pourquoi, au lieu de l’approche européenne qui consiste
+            seulement à réguler comment les données personnelles peuvent être
+            utilisées (avec le Règlement Général de Protection des Données ou
+            RGPD), je propose une loi qui interdirait aux systèmes de collecter
+            les données personnelles.»
+          </span>
         </p>
         <p className="py-2">
           Pour aboutir à ce résultat il recommande de construire des systèmes de
@@ -359,7 +331,7 @@ export const data = {
           carte d’une manière à garantir l’anonymat de l’individu. Le RGPD
           n’empêche pas ce type de collecte.
         </p>
-        <p className="py-2">
+        <p className="py-2 pl-3 font-bold text-xl">
           Le principe de protection par défaut du RGPD (privacy by default) est
           mis en question :{" "}
         </p>
@@ -389,14 +361,14 @@ export const data = {
           fonctionnements tandis qu’elles peuvent facilement justifier l’utilité
           de la collecte{" "}
         </p>
-        <p className="py-2">
+        <p className="py-2 font-medium text-gray-500 text-2xl">
           « Les nouvelles règles du RGPD partent d’une bonne intention, mais
           elles ne vont pas assez loin. Elles n’apporteront pas un bénéfice
           significatif en termes de protection de la vie privée, car elles
           restent trop laxistes. Elles autorisent la collecte de n’importe
           quelle donnée du moment qu’elles sont utiles pour un système et il est
           toujours facile de justifier qu’une donnée est utile à quelque chose.»
-          Richard Stallman
+          <span className="text-black"> Richard Stallman</span>
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
           Une conception « subjectiviste » du consentement:{" "}
@@ -405,12 +377,16 @@ export const data = {
           Le RGPD exige très souvent que les utilisateurs donnent leur
           consentement pour la collecte de leurs données. Il parait une très
           bonne chose, mais Stallman regrette que cela ne fasse pas grand-chose.
-          Pourquoi ? Parce que « Les concepteurs de systèmes sont en effet
-          passés maître dans l’art de « fabriquer du consentement ». La plupart
-          des utilisateurs consentent aux conditions d’utilisation d’un service
-          sans même les lire […] Lorsqu’un service est crucial pour la vie
-          moderne, comme les bus ou les trains, les utilisateurs ignorent les
-          conditions imposées, car refuser de donner leur consentement leur
+          Pourquoi ? Parce que{" "}
+          <span className="text-gray-500 font-medium">
+            {" "}
+            « Les concepteurs de systèmes sont en effet passés maître dans l’art
+            de « fabriquer du consentement »
+          </span>
+          . La plupart des utilisateurs consentent aux conditions d’utilisation
+          d’un service sans même les lire […] Lorsqu’un service est crucial pour
+          la vie moderne, comme les bus ou les trains, les utilisateurs ignorent
+          les conditions imposées, car refuser de donner leur consentement leur
           causerait un tort trop important.»
         </p>
         <p className="py-2">
@@ -428,11 +404,14 @@ export const data = {
         </p>
 
         <p className="py-2">
-          Pierre Calmar a annoncé sur son compte LinkedIn : ‘J’ose le dire. Le
-          RGPD a des vertus, certes. Mais résultant d’une action politique
-          destinée à plaire aux peuples d’un côté, et à certains lobbys de
-          l’autre, il engendre une réalité consternante : ruineux, destructeur,
-          et sublimant le pouvoir des GAFA.
+          <span className="text-black"> Pierre Calmar</span> a annoncé sur son
+          compte LinkedIn :{" "}
+          <p className=" font-medium text-gray-500 text-2xl">
+            J’ose le dire. Le RGPD a des vertus, certes. Mais résultant d’une
+            action politique destinée à plaire aux peuples d’un côté, et à
+            certains lobbys de l’autre, il engendre une réalité consternante :
+            ruineux, destructeur, et sublimant le pouvoir des GAFA.
+          </p>
         </p>
 
         <p className="py-2">
@@ -476,8 +455,10 @@ export const data = {
         <p className="py-2">
           Même si certains d’eux possèdent des lois mais cela n’empêche qu’il
           existe des failles, citons par exemple le cas du Maroc, La loi 09-08
-          régissant le travail du CNDP similaire à la loi française de 1978 sur
-          la protection des données, et le texte marocain semble imiter, ne
+          régissant le travail du <span className="font-medium">CNDP</span>{" "}
+          (Commission Nationale de Contrôle de Protection des Données à
+          Caractère Personnel) similaire à la loi française de 1978 sur la
+          protection des données, et le texte marocain semble imiter, ne
           comprend pas en tant que « données protégées » les informations
           relatives à la vie sexuelle d’une personne. En outre la loi marocaine
           n’explique pas spécifiquement les conditions dans lesquelles une
