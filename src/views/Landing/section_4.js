@@ -56,16 +56,16 @@ export default function Section4() {
       <div className="flex flex-wrap">
         <div className=" pt-6 w-full md:w-4/12 px-4 text-center">
           <Card
-            title="propriataire de donnees "
+            title="Propriataires de donnees "
             content="nombre d'enregistrements de données compromis au cours des six premiers mois de 2019 seulement"
           />
         </div>
 
         <div className="w-full md:w-4/12 px-4 text-center">
           <Card
-            title="
-            service provider"
-            content="Nombre de fichiers contenant des données sensibles dans l'entreprise courante"
+            title="Fournisseurs de services"
+            content="
+            une personne physique ou morale, une autorité publique, une agence ou un autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement des données personnelles. (Ex : Facebook ,Google, ...)"
           />
         </div>
 
