@@ -9,6 +9,7 @@ export default function Index(props) {
     <View
       title={data[props.match.params.id].title}
       content={data[props.match.params.id].content}
+      detail={data[props.match.params.id].detail}
     />
   );
 }

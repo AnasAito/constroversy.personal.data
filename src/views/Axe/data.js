@@ -4,8 +4,8 @@ import Modled2 from "./modled2";
 export const data = {
   tech: {
     title:
-      "tech title Les solutions techniques sont-elles capables de protéger l’usage de mes données personnelles ?",
-    detail: "29 / 05 / 2020",
+      " Les solutions techniques sont-elles capables de protéger l’usage de mes données personnelles ?",
+    detail: "15 / 05 / 2020",
     content: (
       <>
         <p className="py-2 ">
@@ -221,6 +221,7 @@ export const data = {
   legi: {
     title:
       "Les procédures législatives actuelles assurent-elles une protection des données personnelles ?",
+    detail: "26 / 05 / 2020",
     content: (
       <div>
         <p className="py-2">
@@ -473,6 +474,7 @@ export const data = {
   gouv: {
     title:
       "Le gouvernement doit-il décider la collection et l'usage des données personnelles ?",
+    detail: "14 / 05 / 2020",
     content: (
       <div>
         <p className="py-2">
@@ -568,6 +570,7 @@ export const data = {
   tiers: {
     title:
       " Sachant que la collecte et le stockage de plusieurs types données, y compris les données à caractère personnel, sont assurés par des prestataires de services, dans des conditions qualifiées souvent de moins transparentes, le transfert de ces données, à ce stade, vers des tierces entités, parfois même sans la conscience ou le consentement des personnes concernées, doit-il encore être autorisé, sinon dans quelles conditions supplémentaires ? ",
+    detail: "20 / 05 / 2020",
     content: (
       <>
         <p className="py-2">
