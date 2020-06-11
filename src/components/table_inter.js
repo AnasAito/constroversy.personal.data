@@ -22,11 +22,12 @@ export default function TableInter() {
                 <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                   <div>
                     <div class="text-sm  leading-5 font-medium text-indigo-600 truncate">
-                      Raymond Onuhua
+                      Raymond ONUOHA
                     </div>
                     <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                      <span class="truncate ">
-                        Chercheur assistant , Lagos Business School, Nigeria
+                      <span class=" ">
+                        Chercheur en économie numérique et innovation
+                        technologique, Lagos Business School, Nigéria
                       </span>
                     </div>
                   </div>

@@ -219,14 +219,13 @@ export default function Section5() {
           <div className="relative flex  rounded-lg flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-500">
             <div className="text-md font-light m-10 text-white">
               <h4 className="text-xl font-bold text-white">Contre : </h4>
-              <p className="text-md font-light mt-2 text-white">- COHERIS</p>
               <p className="text-md font-light mt-2 text-white">
-                - Raymond Onuoha
+                - Mallorie Wozny
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - Itissalate Al-Maghrib,Médi Telecom et Wana Corporate.
+                - Simons Bright
               </p>
-              <p className="text-md font-light mt-2 text-white">- Experian</p>
+              <p className="text-md font-light mt-2 text-white">- DuckDuckGo</p>
             </div>
             <blockquote className="relative p-8  bg-green-300">
               <svg
@@ -245,13 +244,14 @@ export default function Section5() {
                 ></polygon>
               </svg>
               <h4 className="text-xl font-bold text-white">Pour : </h4>
+              <p className="text-md font-light mt-2 text-white">- COHERIS</p>
               <p className="text-md font-light mt-2 text-white">
-                - Mallorie Wozny
+                - Raymond Onuoha
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - Simons Bright
+                - Itissalate Al-Maghrib,Médi Telecom et Wana Corporate.
               </p>
-              <p className="text-md font-light mt-2 text-white">- DuckDuckGo</p>
+              <p className="text-md font-light mt-2 text-white">- Experian</p>
             </blockquote>
           </div>
         </div>
@@ -264,10 +264,13 @@ export default function Section5() {
               <h4 className="text-xl font-bold text-white">Contre : </h4>
 
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - l’Association Marocaine des Droits Humains
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Comité des Droits de l’Homme et autres
+              </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Media (AL MASSAE , BBC ARABIC ...)
               </p>
             </div>
             <blockquote className="relative p-8  bg-green-300">
@@ -288,20 +291,9 @@ export default function Section5() {
               </svg>
               <h4 className="text-xl font-bold text-white">Pour : </h4>
               <p className="text-md font-light mt-2 text-white">
-                The Arctic Ocean freezes
+                - Gouvernement marocain
               </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
+              <p className="text-md font-light mt-2 text-white">- CNDP</p>
             </blockquote>
           </div>
         </div>

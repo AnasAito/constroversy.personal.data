@@ -478,57 +478,67 @@ export const data = {
     content: (
       <div>
         <p className="py-2">
-          Compte tenu de l'autorité et le champs d'actions du gouvernement via
-          ces entités ce dernier peut y accéder à des bases volumineux de
-          données à caractère personnelles traité et utilisé sous le couvert de
-          l'intérêt public .Ou bien elle peut mettre en place des technologies
-          permettant l'accès aux données personnelles des citoyens sans
-          consentement . Ces actions qui contredit selon plusieurs acteurs les
-          principes des législations mise en place pour garantir une protection
-          de la vie privées des individus . On essaye alors de mettre en
-          question ces actions étatiques qui peuvent nuire à la liberté de ces
-          citoyens selon les observateurs . Afin de mener une analyse solide et
-          complète . On se restreint au cadre du Maroc ou on essayera d'examiner
-          l'État de chevauchement entre les actions gouvernementale et la vie
-          privée des individus , tout en listant les réactions des acteurs
-          externe tel les ONG ,media et autres .
+          Compte tenu de l'autorité et le champ d'action du gouvernement via ces
+          entités, ce dernier peut y accéder à des bases volumineuses de données
+          à caractère personnel traité et utilisé sous le couvert de l'intérêt
+          public. Ou bien il peut mettre en place des techniques permettant
+          l'accès aux données personnelles des citoyens sans consentement. Ces
+          actions qui contredisent selon plusieurs acteurs les principes des
+          législations mises en place pour garantir une protection de la vie
+          privée des individus. On essaye alors de mettre en question ces
+          actions étatiques qui peuvent nuire à la liberté de ces citoyens selon
+          les observateurs. Afin de mener une analyse solide et complète, on se
+          restreint au cadre du Maroc où on essayera d'examiner l’état de
+          chevauchement entre les actions gouvernementales et la vie privée des
+          individus, tout en listant les réactions des acteurs externes tel les
+          ONG, médias et autres.
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
-          CNDP : protection de données limitée ?
+          La CNDP responsable à la protection de nos Données personnelles contre
+          (tout) acteur :
         </p>
         <p className="py-2">
           La CNDP représente l'entité nationale responsable à la protection des
-          données à caractère personnel en s'appuient sur des textes
-          législatives : la loi 09 comme exemple qui se base sur les principes
-          suivants :
+          données à caractère personnel en s'appuyant sur des textes législatifs
+          ,la loi 09 comme exemple qui se base sur les principes suivants :
         </p>
         <p className="px-3">
-          - consensus entre le propriétaire des donnes et le fournisseur de
-          services
+          - Consensus entre le propriétaire des données et le fournisseur de
+          services.
         </p>
         <p className="px-3">
           - la conformité du traitement des données à la loi
         </p>
         <p className="py-2">
-          Sur ces principes la comité a le droit de mener des enquêtes et des
+          Sur ces principes, la comité a le droit de mener des enquêtes et des
           inspections afin de vérifier et détecter toute violation de la loi de
-          protection. Cependant plusieurs acteurs affirme que ces actions
-          d'inspection se limite et se dissipe quand l'État est le responsable
-          de ce traitement. Pour cela on essaye de lister et investiguer ces
-          propos .
+          protection. Cependant, plusieurs acteurs affirment que ces actions
+          d'inspection se limitent et se dissipent quand l'État est le
+          responsable de ce traitement. Pour cela on essaye de lister et
+          investiguer ces propos
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
-          Article de loi favorisant l'état :
+          Article de loi favorisant l’État :
         </p>
         <p className="py-2">
-          en 2015 , 14 NGO - on cite parmi eux : l’Association Marocaine des
-          Droits Humains, Comité des Droits de l’Homme et autres - ont adressé
-          un rapport[1] à la Comité des droits de l'homme des Nations Unies afin
-          de souligner le fait que la CNDP n'a réalisé aucune investigation
-          vis-à-vis les cas surveillance dont l'État est l'auteur. Et qu'elle ne
+          en 2015, 14 ONG -on cite parmi eux: l’Association Marocaine des Droits
+          Humains, Comité des Droits de l’Homme et autres- ont adressé un
+          rapport[1] à la Comité des droits de l'homme des Nations Unies afin de
+          souligner le fait que la CNDP n'a réalisé aucune investigation
+          vis-à-vis des cas surveillance dont l'État est l'auteur. Et qu'elle ne
           communique pas sur les déclarations faites par les différentes
-          administrations étatiques utilisant des outils de traitements des
-          données personnelles.
+          administrations étatiques utilisant des outils de traitement des
+          données personnelles. De plus, une simple lecture des articles de la
+          loi 09 -l’équivalent de la RGPD dans l'UE- nous montre bien que les
+          législations éliminent l'État de toute inspection. En effet, en
+          examinant l'article 44 de cette loi, on détecte bien des facilités qui
+          peuvent être accordée à des tiers si le traitement est nécessaire à
+          l'accomplissement d'une mission «d'intérêt public», un abus de langage
+          qui reste ouvert aux interprétations. On accompagne cela par ces
+          questions(cela nous pousse à se demander ): est ce que la défense
+          nationale ou la sûreté nationale qui font partie de l’intérêt public
+          peut être des causes qui protègent l’état et son traitement des
+          données de toute inspection ou questionnement.
         </p>
         <p className="py-2">
           de plus une simple lecture des article de la loi 09 l'équivalent de la
@@ -543,25 +553,25 @@ export const data = {
           inspection ou questionnement .
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
-          identification : outil d'accès au données personelles
+          Identification : Un outil d'accès aux données personnelles
         </p>
         <p className="py-2">
           dans le cadre de la digitalisation le royaume marocain a réalisé des
-          changements radicale favorisant le numérique ,Citant le domaine
-          d'identification ou L'état a adopté depuis 2008 un nouveau système
-          d'identification pour ces citoyens : des carte d'identité nationale
+          changements radicaux favorisant le numérique, Citant le domaine
+          d'identification ou l’État a adopté depuis 2008 un nouveau système
+          d'identification pour ces citoyens : des cartes d'identité nationale
           contenant à la fois des données personnelles et des données
-          biométriques et donc L'état met a sa disposition une base volumineuse
-          de données personnelles dont on ne connaît a ce moment les
-          circonstances de traitement ou utilisation .
+          biométrique, et donc l’État met à sa disposition une base volumineuse
+          de données personnelles dont on ne connaît à ce moment les
+          circonstances de traitement ou utilisation.
         </p>
         <p className="py-2">
           Encore une fois la CNDP élimine L'état de son champ d'autorité ,en
           effet ,en 2013 elle a publié{" "}
           <span className="font-bold"> une série de recommandations</span>{" "}
           vis-à-vis l'utilisation des données biométriques par les tiers sans
-          aucune indication au base de données biométriques nationales . Cette
-          derniere hébergée chez une agence privée : Gelmato qui est connu par
+          aucune indication aux bases de données biométriques nationales . Cette
+          dernière hébergée chez une agence privée : Gelmato qui est connu par
           ces graves vulnérabilités.
         </p>
       </div>
@@ -612,7 +622,7 @@ export const data = {
           problématique. Un responsable de traitement est celui « qui détermine
           les finalités et les moyens d’un traitement » (article 4 du règlement
           européen). Selon le guide de sous-traitant publié par la CNIL, une
-          trait grande variété de prestataires de services possède la qualité de
+          très grande variété de prestataires de services possède la qualité de
           sous-traitant au sens juridique du terme. Il est important de
           souligner que :
         </p>
@@ -702,9 +712,9 @@ export const data = {
           données personnelles, il doit offrir à ses clients « des garanties
           suffisantes quant à la mise en œuvre de mesures techniques et
           organisationnelles appropriées de manière à ce que le traitement
-          réponde aux exigences du présent règlement et garantisses la
-          protection des droits de la personne concernée » (article 28 du
-          règlement européen).
+          réponde aux exigences du présent règlement et garantisse la protection
+          des droits de la personne concernée » (article 28 du règlement
+          européen).
         </p>
         <p className="py-2 ">
           L’ANRT s’assure également que les équipements mis à disposition par
@@ -801,7 +811,7 @@ export const data = {
           plan technique.
         </p>
         <p className="py-2 ">
-          Dans ce contexte, <span className="font-bold">Simons Bright</span>, un
+          Dans ce contexte, <span className="font-bold">Simons BRIGHT</span>, un
           entrepreneur, avocat et innovateur social, avance dans son article «
           2020 is a crucial year to fight for data protection in Africa » sur le
           site de Privacy International, que « les systèmes biométriques de vote
