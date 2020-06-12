@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Dropdown from "./dropdown";
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -46,6 +47,43 @@ export default function Navbar(props) {
                 >
                   Nos sources
                 </Link>
+              </li>
+              <li className="flex items-center">
+                <Link
+                  to="/anexes"
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#"
+                >
+                  Anexes
+                </Link>
+              </li>
+              <li className="flex items-center cursor-pointer ">
+                <div
+                  onClick={() =>
+                    window.scrollTo({
+                      top: 6700,
+
+                      behavior: "smooth"
+                    })
+                  }
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#"
+                >
+                  Cartographies
+                </div>
+              </li>
+              <li className="flex items-center cursor-pointer ">
+                <Dropdown color="white" />
               </li>
             </ul>
 

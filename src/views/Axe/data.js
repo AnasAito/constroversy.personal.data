@@ -241,22 +241,39 @@ export const data = {
           individus, compte tenu l’importance qui suscite la protection des
           données à caractère personnel dans cette ère numérique. Où elles sont
           devenues la matière première produite par tous appareils connectés
-          (Pc, Smartphone,…). Les producteurs sont les millions d’utilisateurs
-          de services en ligne gratuits qui, en échange, livrent quotidiennement
-          des informations aux géants du Web{" "}
-          <span className="font-medium">GAFAM </span>(Google Apple Facebook
-          Amazon Microsoft) ou bien à des parties tiers, parfois sans même se
-          rendre compte. A cause d’un mal traitement, les utilisateurs des
-          services en lignes peuvent dans certains cas affronter des violations
-          de leurs données personnelles. En revenant au cadre législatif,
-          plusieurs questions se posent sur l’efficacité des lois sur la
-          protection des données à caractère personnelles: Les procédures
-          législatives actuelles assurent-elles une protection des données
-          personnelles ?
+          (Pc, Smartphone,…).{" "}
+        </p>{" "}
+        <p className="py-2">
+          Les producteurs sont les millions d’utilisateurs de services en ligne
+          gratuits qui, en échange, livrent quotidiennement des informations aux
+          géants du Web <span className="font-medium">GAFAM </span>(Google Apple
+          Facebook Amazon Microsoft) ou bien à des parties tiers, parfois sans
+          même se rendre compte. A cause d’un mal traitement, les utilisateurs
+          des services en lignes peuvent dans certains cas affronter des
+          violations de leurs données personnelles.
+        </p>
+        <p className="py-2">
+          {" "}
+          En revenant au cadre législatif, plusieurs questions se posent sur
+          l’efficacité des lois sur la protection des données à caractère
+          personnelles:{" "}
+          <span className="text-black font-medium">
+            Les procédures législatives actuelles assurent-elles une protection
+            des données personnelles ?
+          </span>
+        </p>
+        <p className="py-2">
+          Cette problématique d’actualité présente une forte polémique entre
+          deux clans opposés :
+        </p>{" "}
+        <p className="px-2 text-black font-medium">
+          - Le premier clan soutient les lois en confirmant qu’elles assurent
+          une vraie protection des données à caractère personnel, s’appuient sur
+          divers arguments :
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
           {" "}
-          "Le paquet européen" sur la protection des données :
+          1- L’efficacité du " paquet européen" sur la protection des données :
         </p>
         <p className="py-2">
           La législation de l’Union européenne en matière de protection des
@@ -296,10 +313,17 @@ export const data = {
           Une évolution d’obligation pour les responsables de traitement :
         </p>
         <p className="py-2">
-          Parmi obligations imposées par Le RGPD sur les responsables de
-          traitements des données :{" "}
+          Parmi les obligations imposées par Le RGPD sur les responsables de
+          traitement ou de sous traitement des données à caractère personnel, il
+          y a :
         </p>
         <Modled2 />
+        <p className="pt-8 text-black font-medium">
+          - A contrario, le second clan affirme que les lois de protections de
+          données sont dépourvues de toute efficience et qu’elles ne permettent
+          pas vraiment à la protection de la vie privée des personnes, en se
+          défendant par d’autres preuves :
+        </p>
         <p className="py-2 pl-3 font-bold text-xl">
           Le RGPD consiste seulement à réguler l’utilisation des données
           personnelles :
@@ -403,7 +427,6 @@ export const data = {
           Le RGPD est trop contraignant et risque de renforcer le pouvoir des
           GAFAM:
         </p>
-
         <p className="py-2">
           <span className="text-black"> Pierre Calmar</span> a annoncé sur son
           compte LinkedIn :{" "}
@@ -414,7 +437,6 @@ export const data = {
             ruineux, destructeur, et sublimant le pouvoir des GAFA.
           </p>
         </p>
-
         <p className="py-2">
           L’union européenne tente depuis longtemps à mettre en œuvre des lois
           permettant la protection des données personnelles, mais en réalité la
@@ -423,7 +445,6 @@ export const data = {
           partie à la fiscalité des principaux pays européens. Et d’un autre
           coté ça permet de regagner de la légitimité auprès des citoyens.
         </p>
-
         <p className="py-2">
           Le RGPD impose beaucoup de contrainte sur les entreprises de toutes
           tailles comme les lourdes sanctions, les obligations laxistes. La
@@ -522,23 +543,29 @@ export const data = {
         </p>
         <p className="py-2">
           en 2015, 14 ONG -on cite parmi eux: l’Association Marocaine des Droits
-          Humains, Comité des Droits de l’Homme et autres- ont adressé un
-          rapport[1] à la Comité des droits de l'homme des Nations Unies afin de
-          souligner le fait que la CNDP n'a réalisé aucune investigation
-          vis-à-vis des cas surveillance dont l'État est l'auteur. Et qu'elle ne
-          communique pas sur les déclarations faites par les différentes
-          administrations étatiques utilisant des outils de traitement des
-          données personnelles. De plus, une simple lecture des articles de la
-          loi 09 -l’équivalent de la RGPD dans l'UE- nous montre bien que les
-          législations éliminent l'État de toute inspection. En effet, en
-          examinant l'article 44 de cette loi, on détecte bien des facilités qui
-          peuvent être accordée à des tiers si le traitement est nécessaire à
-          l'accomplissement d'une mission «d'intérêt public», un abus de langage
-          qui reste ouvert aux interprétations. On accompagne cela par ces
-          questions(cela nous pousse à se demander ): est ce que la défense
-          nationale ou la sûreté nationale qui font partie de l’intérêt public
-          peut être des causes qui protègent l’état et son traitement des
-          données de toute inspection ou questionnement.
+          Humains, Comité des Droits de l’Homme et autres- ont adressé un{" "}
+          <a
+            href="http://cmodh.org/wp-content/uploads/2016/09/INT_CCPR_ICO_MAR_22711_F.pdf"
+            className="underline text-blue-400 "
+          >
+            rapport
+          </a>{" "}
+          à la Comité des droits de l'homme des Nations Unies afin de souligner
+          le fait que la CNDP n'a réalisé aucune investigation vis-à-vis des cas
+          surveillance dont l'État est l'auteur. Et qu'elle ne communique pas
+          sur les déclarations faites par les différentes administrations
+          étatiques utilisant des outils de traitement des données personnelles.
+          De plus, une simple lecture des articles de la loi 09 -l’équivalent de
+          la RGPD dans l'UE- nous montre bien que les législations éliminent
+          l'État de toute inspection. En effet, en examinant l'article 44 de
+          cette loi, on détecte bien des facilités qui peuvent être accordée à
+          des tiers si le traitement est nécessaire à l'accomplissement d'une
+          mission «d'intérêt public», un abus de langage qui reste ouvert aux
+          interprétations. On accompagne cela par ces questions(cela nous pousse
+          à se demander ): est ce que la défense nationale ou la sûreté
+          nationale qui font partie de l’intérêt public peut être des causes qui
+          protègent l’état et son traitement des données de toute inspection ou
+          questionnement.
         </p>
         <p className="py-2">
           de plus une simple lecture des article de la loi 09 l'équivalent de la
@@ -568,11 +595,23 @@ export const data = {
         <p className="py-2">
           Encore une fois la CNDP élimine L'état de son champ d'autorité ,en
           effet ,en 2013 elle a publié{" "}
-          <span className="font-bold"> une série de recommandations</span>{" "}
+          <a
+            className="font-bold underline text-blue-500"
+            href="https://www.cndp-maroc.org/images/deliberations/deliberation-n-478-2013-01-11-2013.pdf"
+          >
+            {" "}
+            une série de recommandations
+          </a>{" "}
           vis-à-vis l'utilisation des données biométriques par les tiers sans
           aucune indication aux bases de données biométriques nationales . Cette
           dernière hébergée chez une agence privée : Gelmato qui est connu par
-          ces graves vulnérabilités.
+          <a
+            className="font-bold underline text-blue-500"
+            href="https://theintercept.com/2015/02/19/great-sim-heist/"
+          >
+            {" "}
+            ces graves vulnérabilités.
+          </a>
         </p>
       </div>
     )

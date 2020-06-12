@@ -28,9 +28,9 @@ export default function Section5() {
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
               <p className="text-xl leading-relaxed mt-4 mb-4 text-black text-justify">
-                Une telle analyse nous permettra de tirer d'une question
-                largement vague des questions bien précis dont on peut
-                directement distinguer la controverse .
+                Une telle analyse nous permettra de tirer d'une thématique très
+                large des questions plus précises qui visent à distinguer les
+                axes afin de bien étudier la controverse.
               </p>
             </div>
           </div>
@@ -113,10 +113,16 @@ export default function Section5() {
               <h4 className="text-xl font-bold text-white">Contre : </h4>
 
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Privacy International
               </p>
               <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - Bright Simons
+              </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Richard Matthew Stallman
+              </p>
+              <p className="text-md font-light mt-2 text-white">
+                - Pierre Calmard
               </p>
             </div>
             <blockquote className="relative p-8  bg-green-300">
@@ -136,20 +142,11 @@ export default function Section5() {
                 ></polygon>
               </svg>
               <h4 className="text-xl font-bold text-white">Pour : </h4>
+
+              <p className="text-md font-light mt-2 text-white">- RGPD</p>
+              <p className="text-md font-light mt-2 text-white">- CNIL</p>
               <p className="text-md font-light mt-2 text-white">
-                The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
-              </p>
-              <p className="text-md font-light mt-2 text-white">
-                - The Arctic Ocean freezes
+                - UE et Parlement européen
               </p>
             </blockquote>
           </div>
