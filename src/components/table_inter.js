@@ -78,7 +78,7 @@ export default function TableInter() {
                     </div>
                     <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
                       <span class="truncate ">
-                        Juriste en protetion des données personnelles
+                        Juriste en protection des données personnelles
                       </span>
                     </div>
                   </div>

@@ -224,6 +224,9 @@ export const data = {
     detail: "26 / 05 / 2020",
     content: (
       <div>
+        <div className="bg-gray-200 p-3 rounded flex ">
+          Cliquer sur les titres en bleu pour plus d'informations !
+        </div>
         <p className="py-2">
           Tout au long de l'histoire la notion de la vie privée a refait surface
           à maintes reprises. Alors que le mot est resté le même, sa
@@ -236,21 +239,21 @@ export const data = {
         </p>
         <p className="py-2">
           Le concept de la vie privée, évoqué dès l’Antiquité, témoigne d’une
-          forte omniprésence depuis plusieurs certaines années, dans différentes
-          textes de loi, qui ont été conçues pour protéger l’intimité des
-          individus, compte tenu l’importance qui suscite la protection des
-          données à caractère personnel dans cette ère numérique. Où elles sont
-          devenues la matière première produite par tous appareils connectés
-          (Pc, Smartphone,…).{" "}
+          forte omniprésence depuis plusieurs centaines d’années, dans
+          différents textes de loi, qui ont été conçues pour protéger l’intimité
+          des individus, compte tenu l’importance que suscite la protection des
+          données à caractère personnel dans cette ère numérique, durant
+          laquelle elles sont devenues la matière première produite par tous
+          appareils connectés (Pc, Smartphone…).
         </p>{" "}
         <p className="py-2">
           Les producteurs sont les millions d’utilisateurs de services en ligne
           gratuits qui, en échange, livrent quotidiennement des informations aux
-          géants du Web <span className="font-medium">GAFAM </span>(Google Apple
-          Facebook Amazon Microsoft) ou bien à des parties tiers, parfois sans
-          même se rendre compte. A cause d’un mal traitement, les utilisateurs
-          des services en lignes peuvent dans certains cas affronter des
-          violations de leurs données personnelles.
+          géants du Web <span className="font-medium">GAFAM </span>
+          (Google Apple Facebook Amazon Microsoft), ou bien à des parties
+          tierces, parfois sans même se rendre compte. A cause d’un mal
+          traitement, les utilisateurs des services en lignes peuvent dans
+          certains cas être sujets des violations de leurs données personnelles.
         </p>
         <p className="py-2">
           {" "}
@@ -271,7 +274,7 @@ export const data = {
           une vraie protection des données à caractère personnel, s’appuient sur
           divers arguments :
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
           {" "}
           1- L’efficacité du " paquet européen" sur la protection des données :
         </p>
@@ -279,32 +282,34 @@ export const data = {
           La législation de l’Union européenne en matière de protection des
           données a longtemps été considérée comme une référence dans le monde
           entier. Le droit de la protection des données personnelles n’est pas
-          un droit nouveau ca fut 40 ans d’existence, En effet, dès 1978, la
-          France s’est dotée d’une loi en matière. C’est la fameuse loi «
-          Informatique et Libertés » relative à l'informatique, aux fichiers et
-          aux libertés .sa promulgation était suscité par l’affaire SAFARI
-          (Système Automatisé pour les Fichiers Administratifs et le Répertoire
-          des Individus) un projet lancé per le gouvernement français en 1973,
-          elle se base sur une idée liberticide, de croiser les fichiers de
-          l’administration française, pour en faire un méga-fichier, et ainsi
-          tout savoir, de tout le monde afin de pouvoir identifier chaque
-          citoyen grâce à l'interconnexion de tous les fichiers de
-          l'administration. Le monde révèle ce projet le 21 mars 1974, avec son
-          article « Safari : ou la chasse aux français ».La résistance des
-          citoyens français une commission chargée de veiller à la protection
-          des données des citoyens dans le cadre de la nouvelle loi de 1978
-          relative à l'informatique, aux fichiers et aux libertés (dite "Loi
-          informatique et libertés"). La CNIL a alors pour mission d'accompagner
-          les évolutions informatiques, en veillant à ce que cela reste un
-          progrès pour les citoyens, sans atteinte à leur liberté ni à leur vie
-          privée.
+          un droit nouveau. En effet, dès 1978, la France s’est dotée d’une loi
+          en matière. C’est la fameuse loi « Informatique et Libertés » relative
+          à l'informatique, aux fichiers et aux libertés. Sa promulgation a été
+          suscitée par l’affaire SAFARI (Système Automatisé pour les Fichiers
+          Administratifs et le Répertoire des Individus), un projet lancé par le
+          gouvernement français en 1973 : elle se base sur une idée liberticide,
+          de croiser les fichiers de l’administration française, pour en faire
+          un méga-fichier, et ainsi tout savoir, de tout le monde afin de
+          pouvoir identifier chaque citoyen grâce à l'interconnexion de tous les
+          fichiers de l'administration. Le monde révèle ce projet le 21 mars
+          1974, avec son article « Safari : ou la chasse aux français ».
+          <p>
+            La résistance des citoyens français a résulté la création d’une
+            commission chargée de veiller à la protection des données des
+            citoyens dans le cadre de la nouvelle loi de 1978 relative à
+            l'informatique, aux fichiers et aux libertés (dite "Loi informatique
+            et libertés"). La CNIL a alors pour mission d'accompagner les
+            évolutions informatiques, en veillant à ce que cela reste un progrès
+            pour les citoyens, sans atteinte à leur liberté ni à leur vie
+            privée.
+          </p>
         </p>
         <p className="py-2 pl-3 font-bold text-xl">
           {" "}
           Une évolution en matière de droits des personnes concernées :
         </p>
         <p className="py-2">
-          Le RGPD introduit de nouveaux droits et rectifient d’autres anciennes
+          Le RGPD introduit de nouveaux droits et rectifient d’autres anciens
           afin de garantir une protection des données personnelles des
           individus. Il s’agit de :
         </p>
@@ -318,14 +323,127 @@ export const data = {
           y a :
         </p>
         <Modled2 />
+        <p className="py-2 pl-3 font-bold text-xl">
+          Un consentement « objective » :
+        </p>
+        <p className="py-2">
+          La collecte et le traitement des données sont conditionnés par un
+          constamment qui est une des bases légales prévues par le RGPD, où il
+          impose qu’il doit être libre, spécifique, éclairé et univoque. Il
+          s’agit donc de donner à l’individu un pouvoir de consentir. La notion
+          de consentement libre et éclairée peut devenir une véritable arme
+          contre les GAFAM, surtout si elle est propulsée par des recours
+          collectifs.
+        </p>
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          2- La protection des données à caractères personnelle dans le contexte
+          marocain :
+        </p>
+        <div>
+          {/**morocco */}
+          <p className="py-2 pl-3 font-bold text-xl">
+            {" "}
+            NOUVELLE CONSTITUTION :{" "}
+          </p>
+          <p>
+            La réforme constitutionnelle de juillet 2011 a réaffirmé
+            l’attachement du Maroc à la construction d’un État de droit,
+            démocratique et moderne qui protège les droits de l’Homme et les
+            libertés individuelles et collectives. Parmi ces droits, figure le
+            droit à la protection de la vie privée. Dans son article 24, la
+            nouvelle Constitution souligne ce droit fondamental en ces termes :
+            <span className="text-blue-500">
+              « Toute personne a droit à la protection de sa vie privée. Le
+              domicile est inviolable. Les perquisitions ne peuvent intervenir
+              que dans les conditions et les formes prévues par la loi. Les
+              communications privées, sous quelque forme que ce soit, sont
+              secrètes. Seule la justice peut autoriser, dans les conditions et
+              selon les formes prévues par la loi, l’accès à leur contenu, leur
+              divulgation totale ou partielle ou leur invocation à la charge de
+              quiconque. Est garantie pour tous, la liberté de circuler et de
+              s’établir sur le territoire national, d’en sortir et d’y
+              retourner, conformément à la loi ».
+            </span>
+          </p>
+          <p>
+            {" "}
+            Par ailleurs, en consacrant la primauté des conventions
+            internationales ratifiées, la Constitution impose le respect, sur le
+            plan interne, des dispositions du pacte international relatif aux
+            droits civils et politiques dont l’article 17 rappelle les
+            dispositions de la déclaration universelle des droits de l’Homme
+            relatives à la protection que doit apporter la loi contre les
+            immixtions arbitraires dans la vie privée des individus et les
+            atteintes à leur honneur et à leur réputation.
+          </p>
+          <p className="py-2 pl-3 font-bold text-xl">
+            {" "}
+            LA LOI N° 09-08 RELATIVE A LA PROTECTION DES PERSONNES PHYSIQUES A
+            L’EGARD DU TRAITEMENT DES données à caractère PERSONNEL :{" "}
+          </p>
+          <p>
+            La loi n° 09-08 contient les principes fondamentaux et les moyens de
+            mise en œuvre de la protection des personnes physiques à l’égard du
+            traitement des données personnelles, Elle édicte les règles
+            relatives à la protection des données personnelles et institue la
+            Commission nationale de contrôle de la protection des données à
+            caractère personnel (CNDP).
+          </p>{" "}
+          {/* <div className="pl-3">
+            <p className="font-medium text-black">
+              LES APPORTS DE LA LOI 09-08 :{" "}
+            </p>
+            <p>• Définition des notions de bases et des champs d’application</p>
+            <p>
+              {" "}
+              • Principes clés à respecter dans tout traitement de données à
+              caractère personnel{" "}
+            </p>
+            <p>• Droits de la personne concernée </p>
+            <p>• Les obligations du responsable du traitement </p>
+            <p>• Les modalités de notification de traitement </p>
+            <p>• Les sanctions</p>
+          </div>{" "}*/}
+          <p className="py-2 pl-3 font-bold text-xl">
+            Les entreprises de télécommunication marocaines s’engagent à assurer
+            une protection de données personnelles :{" "}
+          </p>
+          <p>
+            {" "}
+            Dans le domaine de télécommunication, L’ANRT s’assure que les
+            équipements mis à disposition par les opérateurs répondent aux
+            normes de sécurité. Il s’assure également que les opérateurs et
+            prestataires de services respectent la confidentialité de la
+            correspondance et les conditions de protection de la vie privée et
+            des données personnelles des utilisateurs.
+          </p>{" "}
+          <p>
+            Sous la présidence conjointe du Président de la CNDP et du Directeur
+            Général de l’ANRT, une réunion de travail a été tenue au siège de la
+            CNDP, le 23 avril 2019, avec les représentants de trois exploitants
+            de réseaux publics de télécommunications au Maroc, à savoir
+            Itissalat Al-Maghrib, Médi Telecom et Wana Corporate. A l’issue des
+            échanges, les opérateurs de télécommunications se sont engagés en
+            tant que fournisseurs d’infrastructures d’exiger, auprès des
+            Prestataires de Services à Valeur Ajoutée, que tous les SMS de
+            prospection commerciale envoyés comportent une indication sur le
+            moyen mis à disposition du client pour ne pas en recevoir. Si cette
+            exigence n’est pas respectée par le Prestataire de Services à Valeur
+            Ajoutée, ce dernier s’exposerait directement à l’application des
+            mesures prévues par les textes en vigueur. La CNDP et l’ANRT ont
+            convenu de mettre en place, en concertation le cas échéant avec les
+            Autorités concernées, des mécanismes de contrôles des sociétés qui
+            opèrent dans l’envoi des SMS de prospection commerciale.
+          </p>
+        </div>
         <p className="pt-8 text-black font-medium">
           - A contrario, le second clan affirme que les lois de protections de
           données sont dépourvues de toute efficience et qu’elles ne permettent
           pas vraiment à la protection de la vie privée des personnes, en se
           défendant par d’autres preuves :
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
-          Le RGPD consiste seulement à réguler l’utilisation des données
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          1 - Le RGPD consiste seulement à réguler l’utilisation des données
           personnelles :
         </p>
         <p className="py-2">
@@ -356,9 +474,9 @@ export const data = {
           carte d’une manière à garantir l’anonymat de l’individu. Le RGPD
           n’empêche pas ce type de collecte.
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
-          Le principe de protection par défaut du RGPD (privacy by default) est
-          mis en question :{" "}
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          2- Le principe de protection par défaut du RGPD (privacy by default)
+          est mis en question :{" "}
         </p>
         <p className="py-2">
           La protection par défaut du RGPD dit que le droit de collecter des
@@ -376,9 +494,9 @@ export const data = {
           fonctionner un système sans collecter de données personnelles, ce qui
           n’est pas la même chose.
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
-          Les organisations et les entreprises peuvent facilement s’échapper du
-          RGPD :{" "}
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          3- Les organisations et les entreprises peuvent facilement s’échapper
+          du RGPD :{" "}
         </p>
         <p className="py-2">
           Le RGPD accorde la permission aux organisations et entreprises de
@@ -386,7 +504,7 @@ export const data = {
           fonctionnements tandis qu’elles peuvent facilement justifier l’utilité
           de la collecte{" "}
         </p>
-        <p className="py-2 font-medium text-gray-500 text-2xl">
+        <p className="py-2 font-medium text-gray-500 text-xl">
           « Les nouvelles règles du RGPD partent d’une bonne intention, mais
           elles ne vont pas assez loin. Elles n’apporteront pas un bénéfice
           significatif en termes de protection de la vie privée, car elles
@@ -395,8 +513,8 @@ export const data = {
           toujours facile de justifier qu’une donnée est utile à quelque chose.»
           <span className="text-black"> Richard Stallman</span>
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
-          Une conception « subjectiviste » du consentement:{" "}
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          4 - Une conception « subjectiviste » du consentement:{" "}
         </p>
         <p className="py-2">
           Le RGPD exige très souvent que les utilisateurs donnent leur
@@ -423,9 +541,9 @@ export const data = {
           leurs conditions d’utilisation ou de renoncer au service qu’elles
           proposent.
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
-          Le RGPD est trop contraignant et risque de renforcer le pouvoir des
-          GAFAM:
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          5 - Le RGPD est trop contraignant et risque de renforcer le pouvoir
+          des GAFAM:
         </p>
         <p className="py-2">
           <span className="text-black"> Pierre Calmar</span> a annoncé sur son
@@ -461,8 +579,8 @@ export const data = {
           ses données personnelles sera plus fort s’il bénéficie des services en
           lignes « gratuits » de la part de ces géants du web.
         </p>
-        <p className="py-2 pl-3 font-bold text-xl">
-          Un manque des lois sur la protection des données personnelles à
+        <p className="py-2 pl-3 font-bold text-xl text-red-500">
+          6 - Un manque des lois sur la protection des données personnelles à
           l’échelle africain :
         </p>
         <p className="py-2">

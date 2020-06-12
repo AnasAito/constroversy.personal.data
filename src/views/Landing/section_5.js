@@ -148,6 +148,8 @@ export default function Section5() {
               <p className="text-md font-light mt-2 text-white">
                 - UE et Parlement européen
               </p>
+              <p className="text-md font-light mt-2 text-white">- ANRT</p>
+              <p className="text-md font-light mt-2 text-white">- CNDP</p>
             </blockquote>
           </div>
         </div>
@@ -300,14 +302,14 @@ export default function Section5() {
             personnelles ?
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700 text-justify">
-            Compte tenu de l'autorité et le champs d'actions du gouvernement via
-            ces entités ce dernier peut y accéder à des bases volumineux de
-            données à caractère personnelles traité et utilisé sous le couvert
-            de l'intérêt public .Ou bien elle peut mettre en place des
-            technologies permettant l'accès aux données personnelles des
-            citoyens sans consentement . Ces actions qui contredit selon
-            plusieurs acteurs les principes des législations mise en place pour
-            garantir une protection de la vie privées des individus .
+            Compte tenu de l'autorité et le champ d'action du gouvernement via
+            ces entités, ce dernier peut y accéder à des bases volumineuses de
+            données à caractère personnel traité et utilisé sous le couvert de
+            l'intérêt public. Ou bien il peut mettre en place des techniques
+            permettant l'accès aux données personnelles des citoyens sans
+            consentement. Ces actions qui contredisent selon plusieurs acteurs
+            les principes des législations mises en place pour garantir une
+            protection de la vie privée des individus.
           </p>
 
           <Link

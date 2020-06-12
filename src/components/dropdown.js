@@ -70,7 +70,7 @@ export default function Dropdown({ color }) {
                 }
                 // onClick={e => e.preventDefault()}
               >
-                Axe legislative
+                Axe législatif
               </Link>
               <Link
                 to="/axe/gouv"
@@ -80,7 +80,7 @@ export default function Dropdown({ color }) {
                 }
                 // onClick={e => e.preventDefault()}
               >
-                Axe gouvernementale
+                Axe gouvernemental
               </Link>
               <Link
                 to="/axe/tiers"
