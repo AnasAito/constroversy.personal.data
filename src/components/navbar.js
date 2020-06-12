@@ -50,7 +50,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <Link
-                  to="/anexes"
+                  to="/annexe"
                   className={
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
@@ -59,7 +59,7 @@ export default function Navbar(props) {
                   }
                   href="#"
                 >
-                  Anexes
+                  Annexe
                 </Link>
               </li>
               <li className="flex items-center cursor-pointer ">
