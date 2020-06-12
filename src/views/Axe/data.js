@@ -352,7 +352,7 @@ export const data = {
             libertés individuelles et collectives. Parmi ces droits, figure le
             droit à la protection de la vie privée. Dans son article 24, la
             nouvelle Constitution souligne ce droit fondamental en ces termes :
-            <span className="text-blue-500">
+            <span className="text-gray-600">
               « Toute personne a droit à la protection de sa vie privée. Le
               domicile est inviolable. Les perquisitions ne peuvent intervenir
               que dans les conditions et les formes prévues par la loi. Les
