@@ -7,6 +7,8 @@ import Axe from "./views/Axe/index";
 import Us from "./views/us";
 import Refs from "./views/refs";
 import Anexe from "./views/anexe";
+import Carto from "./views/carto";
+import Intert from "./views/inter";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/us" component={Us} />
         <Route path="/refs" component={Refs} />
         <Route path="/annexe" component={Anexe} />
+        <Route path="/carto" component={Carto} />
+        <Route path="/inter" component={Intert} />
         <Route path="/test">
           <div className="m-10">
             <Tab color="pink" />

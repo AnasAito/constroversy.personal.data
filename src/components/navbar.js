@@ -63,14 +63,8 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li className="flex items-center cursor-pointer ">
-                <div
-                  onClick={() =>
-                    window.scrollTo({
-                      top: 6700,
-
-                      behavior: "smooth"
-                    })
-                  }
+                <Link
+                  to="/carto"
                   className={
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
@@ -80,7 +74,21 @@ export default function Navbar(props) {
                   href="#"
                 >
                   Cartographies
-                </div>
+                </Link>
+              </li>
+              <li className="flex items-center cursor-pointer ">
+                <Link
+                  to="/inter"
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#"
+                >
+                  Nos interviews
+                </Link>
               </li>
               <li className="flex items-center cursor-pointer ">
                 <Dropdown color="white" />
